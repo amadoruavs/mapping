@@ -1,0 +1,17 @@
+{
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "machine": "arm64",
+  "cpu_threads": 12,
+  "available_bytes": 10093215744,
+  "working_budget_bytes": 6054435225,
+  "hip_compiler": null,
+  "rocm_root_present": false,
+  "npu_device_nodes": [],
+  "xdna_driver_present": false,
+  "npu_kernels_implemented": false,
+  "torch_installed": true,
+  "torch_version": "2.14.0",
+  "hip_version": null,
+  "metal_available": true,
+  "hip_available": false
+}

@@ -1,0 +1,50 @@
+..............Appearance seam error: {'before': 15.511353770119548, 'after': 0.6614071996259935, 'blur': 1.0}
+...../Users/avneh/Code/ADM/MapRepair/tests/test_blending_io.py:79: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  np.testing.assert_allclose(geo.matrix@np.array([0,0,1]),[*transform*(.5,.5),1])
+/Users/avneh/Code/ADM/MapRepair/tests/test_blending_io.py:91: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  np.testing.assert_allclose(tuple(ds.transform),tuple(transform*Affine.scale(.5)),atol=1e-10)
+.........Known-error repair: {'before': np.float64(28.374313186813186), 'after': np.float64(4.19235347985348), 'tiles': 11}
+.....[load] starting
+[load] 0.005s
+[scan_and_source_cross_checks] starting
+[scan 1/3] 0.png: FLAGGED; 4320 inliers; 11 suspect tiles
+[scan 2/3] 1.png: FLAGGED; 4287 inliers; 11 suspect tiles
+[scan 3/3] 2.png: FLAGGED; 4367 inliers; 11 suspect tiles
+[cross-check] 3/3 overlapping source pairs
+[scan_and_source_cross_checks] 1.390s
+[repair] starting
+[repair] 0.png: 1 verified tiles, appearance matched
+[repair] 2.png: 10 verified tiles, appearance matched
+[repair] 0.083s
+[native_build] starting
+[native_build] 0.000s
+[openrt_build] starting
+[openrt_build] 0.005s
+[adaptive_finish] starting
+[adaptive_finish] 0.099s
+[raytrace] starting
+[raytrace] 0.089s
+[fsr_2x] starting
+[FSR EASU] 17%
+[FSR EASU] 35%
+[FSR EASU] 53%
+[FSR EASU] 71%
+[FSR EASU] 88%
+[FSR EASU] 100%
+[FSR RCAS] 17%
+[FSR RCAS] 35%
+[FSR RCAS] 53%
+[FSR RCAS] 71%
+[FSR RCAS] 88%
+[FSR RCAS] 100%
+[fsr_2x] 0.078s
+[final_export] starting
+[final_export] 0.073s
+Complete: /private/var/folders/dv/w0qjghzn47q3by1r00jm1v780000gn/T/tmpd6o0cmc2/result (1.83s)
+../Users/avneh/Code/ADM/MapRepair/.runtime/python-Darwin-arm64-a3bc446ddd34/lib/python3.12/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+..........
+----------------------------------------------------------------------
+Ran 45 tests in 13.521s
+
+OK

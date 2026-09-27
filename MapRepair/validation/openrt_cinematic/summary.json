@@ -1,0 +1,93 @@
+{
+  "total_seconds": 34.0827186250026,
+  "stage_seconds": {
+    "load": 0.4306935419954243,
+    "scan_and_source_cross_checks": 21.903165999996418,
+    "repair": 1.4737346670008264,
+    "native_build": 0.004361082996183541,
+    "openrt_build": 0.5072557919993415,
+    "ism_sharpen": 2.716729874999146,
+    "cinematic_finish": 2.3085734579944983,
+    "raytrace": 0.08692945800430607,
+    "highlight_bloom": 7.458002073690295e-06,
+    "fsr_2x": 1.2858702920057112,
+    "final_export": 1.4407595829979982
+  },
+  "photos": 94,
+  "tiles": 21,
+  "sources": 14,
+  "same_repair_selection": true,
+  "same_repaired_map": true,
+  "jpeg_size": [
+    9358,
+    7882
+  ],
+  "alpha_exact": true,
+  "bounds_exact": true,
+  "unpatched_pixels_exact": true,
+  "openrt_plane_pass_pixel_exact": true,
+  "openrt": {
+    "backend": "Project-10/OpenRT C++ Scene, BSP, diffuse shader, sun and sky ray tracing",
+    "geometry": "flat map plane",
+    "samples": 16,
+    "bounces": 0,
+    "field_shape": [
+      108,
+      128
+    ],
+    "irradiance_min": 1.0,
+    "irradiance_max": 1.0,
+    "strength": 0.18,
+    "sun_elevation_deg": 8.0,
+    "sun_azimuth_deg": 255.0,
+    "flat_plane_preserves_pixels": true,
+    "provided_scene_geometry": false,
+    "note": "A flat plane adds no scene-specific shadows. Existing photographed lighting is retained.",
+    "upstream": "https://github.com/Project-10/OpenRT",
+    "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+    "source_sha256": "b9720d85544767dc6ef658f1547009a5addbece3bc7146c9597810f8679c34c2",
+    "sky_samples": 16,
+    "normalization": "Identical unoccluded ground plane",
+    "lighting": "Direct diffuse sun plus sampled sky occlusion; no inferred scene geometry"
+  },
+  "cinematic": {
+    "look": "warm_documentary",
+    "parameters": {
+      "exposure_strength": 0.55,
+      "contrast": 0.16,
+      "saturation": 0.97,
+      "warmth": 0.024,
+      "shadow_lift": 0.01,
+      "highlight_compression": 0.2,
+      "green_reduction": 0.07,
+      "diffusion": 0.025,
+      "halation": 0.01
+    },
+    "virtual_exposure_stops": [
+      -0.6499999761581421,
+      0.0,
+      0.6499999761581421
+    ],
+    "white_balance_rgb_gain": [
+      1.0399999618530273,
+      0.9905221462249756,
+      0.9735980033874512
+    ],
+    "neutral_reference_pixels": 2649,
+    "max_virtual_exposure_adjustment_codes": 13.479936271905899,
+    "alpha_preserved": true,
+    "operations": [
+      "masked neutral balance",
+      "virtual exposure blend",
+      "filmic tone curve",
+      "warm highlights/cool shadows",
+      "selective green saturation",
+      "highlight diffusion",
+      "subtle warm halation"
+    ],
+    "source_information": "All exposures derived from one image; no additional measured HDR or scene geometry"
+  },
+  "original_sha256": "79e151e6b428de9a6068c466eccbe7c84eeb30483ec3d2e05757c92a55018619",
+  "tests": 18,
+  "quality_note": "Appearance experiment; no surveyed geometry or measured HDR recovery. OpenRT flat-plane illumination is neutral."
+}

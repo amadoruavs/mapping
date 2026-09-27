@@ -1,0 +1,96 @@
+{
+  "HIP": {
+    "repo": "ROCm/HIP",
+    "commit": "f7929cc4022333400ca95b34ab2e8dd56a352636",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/ROCm/HIP/f7929cc4022333400ca95b34ab2e8dd56a352636/README.md",
+        "sha256": "ea0d8db5ea84203b5d9cf5afb9faa5a5fa84be2611dd8e1dfe7f8337e0250091"
+      },
+      {
+        "path": "docs/how-to/hip_runtime_api/asynchronous.rst",
+        "url": "https://raw.githubusercontent.com/ROCm/HIP/f7929cc4022333400ca95b34ab2e8dd56a352636/docs/how-to/hip_runtime_api/asynchronous.rst",
+        "sha256": "de20209442322b71e2b273fef595d6433521cce5869e7bcaacec5542c78437d0"
+      },
+      {
+        "path": "docs/how-to/hip_runtime_api/memory_management/device_memory.rst",
+        "url": "https://raw.githubusercontent.com/ROCm/HIP/f7929cc4022333400ca95b34ab2e8dd56a352636/docs/how-to/hip_runtime_api/memory_management/device_memory.rst",
+        "sha256": "8ca8cfd9f57f872e6876e80b30c549842fe7f2fe7dee3b2a8be1cfa23fe43adc"
+      }
+    ],
+    "missing": []
+  },
+  "ROCm": {
+    "repo": "ROCm/ROCm",
+    "commit": "63fd8390bf645ae3c0c715537025137127f892e3",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/ROCm/ROCm/63fd8390bf645ae3c0c715537025137127f892e3/README.md",
+        "sha256": "9a994e5acede9dc1d8617214272b528157b9253f74c3210918e90b521b2df619"
+      },
+      {
+        "path": "docs/index.md",
+        "url": "https://raw.githubusercontent.com/ROCm/ROCm/63fd8390bf645ae3c0c715537025137127f892e3/docs/index.md",
+        "sha256": "ba0d9c4c4e0eab2b88e4df9d0d6329e894d6b15d41dd3acae3b459f769814dc5"
+      }
+    ],
+    "missing": []
+  },
+  "xdna-driver": {
+    "repo": "amd/xdna-driver",
+    "commit": "d715319ca8c4db291542abbce7cd850b9c2a1b57",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/amd/xdna-driver/d715319ca8c4db291542abbce7cd850b9c2a1b57/README.md",
+        "sha256": "87565ad20ca0034bc4d82e072bfefe403d08c63234ebb079a48e13308045dd7c"
+      }
+    ],
+    "missing": []
+  },
+  "mlir-aie": {
+    "repo": "Xilinx/mlir-aie",
+    "commit": "20a9c2fb2dca34d9d0f6f0c91793107d737423c3",
+    "files": [
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/Xilinx/mlir-aie/20a9c2fb2dca34d9d0f6f0c91793107d737423c3/README.md",
+        "sha256": "d52ed99bf50aa270b4bab751c7dd8bf41af8ad6191e9785e8d2d6dc4fb5f1f1b"
+      },
+      {
+        "path": "programming_guide/README.md",
+        "url": "https://raw.githubusercontent.com/Xilinx/mlir-aie/20a9c2fb2dca34d9d0f6f0c91793107d737423c3/programming_guide/README.md",
+        "sha256": "02db5d73f774f34c57ad1138caed206bf59f7beff684dd75a65f05aff303a4f1"
+      },
+      {
+        "path": "docs/buildHostLinNonUbuntu.md",
+        "url": "https://raw.githubusercontent.com/Xilinx/mlir-aie/20a9c2fb2dca34d9d0f6f0c91793107d737423c3/docs/buildHostLinNonUbuntu.md",
+        "sha256": "4a56e0785fb8b3f0907377dc8b855cea598a5e51e1a3def2c8190f68e7bddebd"
+      }
+    ],
+    "missing": [],
+    "wheel_reference_commit": "f50bef7",
+    "wheel": "mlir_aie-1.4.4.dev3+gf50bef7-cp312-cp312-manylinux_2_35_x86_64.whl",
+    "wheel_sha256": "02c5229aa6229cca9c70d694cf69a96a50b2a2c11f5fcecb855ea72926208366",
+    "wheel_reference_files": [
+      {
+        "path": "utils/peano-requirements.txt",
+        "sha256": "82bc86eccef288970fb3b5c160ebc015dfc7e45c55daabae5e1f3960ee529bc1"
+      },
+      {
+        "path": "python/iron/kernel.py",
+        "sha256": "ec47f00ce13322864651992c080409a338ece78fce9a29270b3ff68909852488"
+      },
+      {
+        "path": "python/iron/__init__.py",
+        "sha256": "1e9213ae7c825d0e69b637e059ee5fecc8a249d0ec8872cefbc7345910bd0534"
+      },
+      {
+        "path": "python/iron/algorithms/_transform.py",
+        "sha256": "ed0856e88cc57fc85444f8cb9956f96aee570487aa944385705b4355186b3212"
+      }
+    ]
+  }
+}

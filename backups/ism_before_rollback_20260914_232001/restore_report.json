@@ -1,0 +1,27 @@
+{
+  "restored_from": "ISM/runtime.zip",
+  "snapshot_latest_source_time": "2026-09-14 22:35:32 local",
+  "shader_sha256": "c610ad5fc0a456f6978ead738a9aeb073695faa16b1f2436ec0be7283e0cc2c2",
+  "shader_unchanged": true,
+  "changed": [
+    "ISM/runtime/ADMMetal.m",
+    "ISM/runtime/bundle_manifest.json",
+    "ISM/runtime/adm/registration.py",
+    "ISM/runtime/adm/config.py",
+    "ISM/runtime/adm/pipeline.py",
+    "ISM/runtime/adm/gpu_alignment.py",
+    "adm/config.py",
+    "adm/gpu_alignment.py",
+    "adm/registration.py",
+    "adm/pipeline.py",
+    "shaders/ADMMetal.m",
+    "shaders/alignment.metal",
+    "ISM/run.py"
+  ],
+  "removed": [
+    "adm/geo_priors.py",
+    "ISM/runtime/adm/geo_priors.py",
+    "ISM/tests/test_geo_priors.py"
+  ],
+  "prior_code_archive": "/Users/avneh/Code/ADM/backups/ism_before_rollback_20260914_232001/previous_code.zip"
+}

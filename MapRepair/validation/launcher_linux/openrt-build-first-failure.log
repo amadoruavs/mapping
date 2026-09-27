@@ -1,0 +1,79 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenCV: /usr (found suitable version "4.6.0", minimum required is "4") found components: core imgproc imgcodecs highgui features2d ml 
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /work with spaces/MapRepair/build/openrt-linux-x86_64-ef14fba456e0
+[  4%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFGlossy.cpp.o
+[  4%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFLambertian.cpp.o
+[  4%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.cpp.o
+[  6%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.cpp.o
+[  7%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BSPNode.cpp.o
+[ 10%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFSpecularReflection.cpp.o
+[ 12%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFOrenNayar.cpp.o
+[ 12%] Building CXX object CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BSPTree.cpp.o
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.cpp: In member function ‘virtual float rt::CBRDFPhong::f(const cv::Vec3f&, const cv::Vec3f&) const’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.cpp:12:31: error: ‘powf’ is not a member of ‘std’; did you mean ‘pow’?
+   12 |         float specular = std::powf(cosLightReflect, m_ke);
+      |                               ^~~~
+      |                               pow
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.cpp: In member function ‘virtual float rt::CBRDFBlinn::f(const cv::Vec3f&, const cv::Vec3f&) const’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.cpp:12:31: error: ‘powf’ is not a member of ‘std’; did you mean ‘pow’?
+   12 |         float specular = std::powf(cosHalfwayNormal, m_ke);
+      |                               ^~~~
+      |                               pow
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFGlossy.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFGlossy.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFOrenNayar.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFOrenNayar.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFSpecularReflection.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFSpecularReflection.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+In file included from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFLambertian.h:3,
+                 from /work with spaces/MapRepair/third_party/OpenRT/modules/core/BRDFLambertian.cpp:1:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h: In function ‘float rt::SinTheta(const cv::Vec3f&)’:
+/work with spaces/MapRepair/third_party/OpenRT/modules/core/BxDF.h:127:29: error: ‘sqrtf’ is not a member of ‘std’; did you mean ‘sqrt’?
+  127 |                 return std::sqrtf(Sin2Theta(w));
+      |                             ^~~~~
+      |                             sqrt
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:132: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFPhong.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:76: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFBlinn.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:118: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFOrenNayar.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:146: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFSpecularReflection.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:104: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFLambertian.cpp.o] Error 1
+gmake[2]: *** [CMakeFiles/openrt_core.dir/build.make:90: CMakeFiles/openrt_core.dir/work_with_spaces/MapRepair/third_party/OpenRT/modules/core/BRDFGlossy.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/openrt_core.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

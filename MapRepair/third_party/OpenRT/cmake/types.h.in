@@ -1,0 +1,67 @@
+#pragma once
+
+#define OPENRT_VERSION_MAJOR @OPENRT_VERSION_MAJOR@
+#define OPENRT_VERSION_MINOR @OPENRT_VERSION_MINOR@
+#define OPENRT_VERSION_PATCH @OPENRT_VERSION_PATCH@
+
+#cmakedefine DEBUG_MODE			
+#cmakedefine DEBUG_PRINT_INFO	
+#cmakedefine ENABLE_BSP	
+#cmakedefine ENABLE_PDP
+#cmakedefine ENABLE_AMP
+#cmakedefine ENABLE_CACHE
+
+#define SHADOW_TYPE_@SHADOW_TYPE@
+
+#include <optional>
+#include <limits>
+#include <vector>
+#include <memory>
+#include <thread>
+#include <math.h>
+#ifdef ENABLE_AMP
+#include <amp.h>
+#endif
+#include "opencv2/opencv.hpp"
+
+using namespace cv;
+
+#ifdef _WIN32
+	using byte	= unsigned __int8;
+	using word	= unsigned __int16;
+	using dword	= unsigned __int32;
+	using qword	= unsigned __int64;
+#else
+	using byte	= uint8_t;
+	using word	= uint16_t;
+	using dword	= uint32_t;
+	using qword	= uint64_t;
+#endif
+
+constexpr double	Pi		= 3.14159265358979323846;			///< Pi number
+constexpr float		Pif		= 3.14159265358979323846f;			///< Pi number
+constexpr float 	InvPif 	= 0.31830988618379067154f;			///< 1 / Pi 
+constexpr float		Infty 	= std::numeric_limits<float>::infinity();
+constexpr float		Epsilon = 1E-5f;
+
+template <class T>  T& lvalue_cast(T&& t) { return t; }
+#ifdef _WIN32
+	#define EmptyMat	Mat()	
+	#define DllExport	__declspec(dllexport)
+#else
+	#define EmptyMat	lvalue_cast(Mat())	
+	#define DllExport
+#endif
+
+namespace rt { 
+	class CPrim;
+	using ptr_prim_t 	= std::shared_ptr<CPrim>;
+	class CBxDF;
+	using ptr_BxDF_t 	= std::shared_ptr<CBxDF>;
+	class CBSPNode;
+	using ptr_bspnode_t = std::shared_ptr<CBSPNode>;
+	
+#define RGB(r, g, b)  Vec3f((b), (g), (r)) / 255.0f
+	constexpr size_t maxRayCounter	= @MAX_RAY_COUNTER@;
+	static const Vec3f	exitColor	= Vec3f(0.4f, 0.4f, 0.4f);
+}

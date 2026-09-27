@@ -1,0 +1,32 @@
+{
+  "backend": "Project-10/OpenRT C++ Scene, BSP, diffuse shader, sun and sky ray tracing",
+  "geometry": "flat map plane",
+  "samples": 16,
+  "bounces": 0,
+  "field_shape": [
+    99,
+    128
+  ],
+  "irradiance_min": 0.771049439907074,
+  "irradiance_max": 1.1898411512374878,
+  "strength": 0.65,
+  "sun_elevation_deg": 15.0,
+  "sun_azimuth_deg": 255.0,
+  "flat_plane_preserves_pixels": false,
+  "provided_scene_geometry": false,
+  "mean_irradiance_rgb": [
+    1.18918943469121,
+    0.9668525028033088,
+    0.771162312129757
+  ],
+  "highlight_protection": true,
+  "note": "Artistic warm sun/cool sky on a flat plane; existing shadows retained, no inferred tree/building shadows. The 5 pm name is a look, not a calculated sun position.",
+  "upstream": "https://github.com/Project-10/OpenRT",
+  "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+  "source_sha256": "22b3f051af7c098208bfa3d253969254f5fbb8e5a0f4abf20622a916f44a4a70",
+  "sky_samples": 16,
+  "normalization": "Unoccluded ground plane under neutral sun/sky",
+  "lighting_preset": "golden_hour_5pm",
+  "field_channels": "linear RGB",
+  "lighting": "Direct diffuse sun plus sampled sky occlusion; no inferred scene geometry"
+}

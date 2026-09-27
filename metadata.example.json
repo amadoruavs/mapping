@@ -1,0 +1,10 @@
+{
+  "IMG_0008.jpg": {
+    "latitude": 35.0,
+    "longitude": -97.0,
+    "yaw_deg": 0.0,
+    "pitch_deg": -90.0,
+    "roll_deg": 0.0,
+    "gps_reference": "camera"
+  }
+}

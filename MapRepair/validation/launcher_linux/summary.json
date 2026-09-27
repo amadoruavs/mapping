@@ -1,0 +1,14 @@
+{
+  "platform": "Linux-6.12.76-linuxkit-x86_64-with-glibc2.39",
+  "architecture": "x86_64",
+  "clean_install": true,
+  "repeat_setup": true,
+  "path_with_spaces": true,
+  "http_ui_status": 200,
+  "folder_drop_ui_present": true,
+  "tests": 30,
+  "state": {
+    "latest": null,
+    "max_upload_bytes": 8589934592
+  }
+}

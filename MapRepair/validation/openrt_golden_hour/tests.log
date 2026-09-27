@@ -1,0 +1,73 @@
+test_color_and_detail_mismatch_reduced_without_touching_outside (test_blending_io.BlendingTests.test_color_and_detail_mismatch_reduced_without_touching_outside) ... Appearance seam error: {'before': 15.511353770119548, 'after': 0.6614071996259935, 'blur': 1.0}
+ok
+test_empty_appearance_context_is_finite_and_safe (test_blending_io.BlendingTests.test_empty_appearance_context_is_finite_and_safe) ... ok
+test_patch_order_and_original_alpha_are_preserved (test_blending_io.BlendingTests.test_patch_order_and_original_alpha_are_preserved) ... ok
+test_fourth_non_alpha_band_does_not_crop_map (test_blending_io.RasterIOTests.test_fourth_non_alpha_band_does_not_crop_map) ... ok
+test_rgb_nodata_and_uint16_display_conversion (test_blending_io.RasterIOTests.test_rgb_nodata_and_uint16_display_conversion) ... ok
+test_tiff_band_roles_internal_mask_and_rotated_extent (test_blending_io.RasterIOTests.test_tiff_band_roles_internal_mask_and_rotated_extent) ... /Users/avneh/Code/ADM/MapRepair/tests/test_blending_io.py:79: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  np.testing.assert_allclose(geo.matrix@np.array([0,0,1]),[*transform*(.5,.5),1])
+/Users/avneh/Code/ADM/MapRepair/tests/test_blending_io.py:91: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  np.testing.assert_allclose(tuple(ds.transform),tuple(transform*Affine.scale(.5)),atol=1e-10)
+ok
+test_alpha_hidden_colors_and_strip_parity (test_cinematic_openrt.CinematicTests.test_alpha_hidden_colors_and_strip_parity) ... ok
+test_gray_ramp_has_no_tonal_reversals_or_excess_clipping (test_cinematic_openrt.CinematicTests.test_gray_ramp_has_no_tonal_reversals_or_excess_clipping) ... ok
+[OpenRT] Compiling upstream C++ library and map adapter
+test_actual_openrt_plane_is_neutral_and_keeps_pixels (test_cinematic_openrt.OpenRTTests.test_actual_openrt_plane_is_neutral_and_keeps_pixels) ... ok
+test_golden_highlight_protection_preserves_white_and_ramp (test_cinematic_openrt.OpenRTTests.test_golden_highlight_protection_preserves_white_and_ramp) ... ok
+test_golden_hour_is_warm_rgb_luminance_balanced_and_repeatable (test_cinematic_openrt.OpenRTTests.test_golden_hour_is_warm_rgb_luminance_balanced_and_repeatable) ... ok
+test_openrt_occluder_and_thread_repeatability (test_cinematic_openrt.OpenRTTests.test_openrt_occluder_and_thread_repeatability) ... ok
+test_georeference_survives_final_2x (test_pipeline.GeometryTests.test_georeference_survives_final_2x) ... ok
+test_known_local_error_is_repaired_and_unrelated_pixels_preserved (test_pipeline.GeometryTests.test_known_local_error_is_repaired_and_unrelated_pixels_preserved) ... Known-error repair: {'before': np.float64(28.374313186813186), 'after': np.float64(4.19235347985348), 'tiles': 11}
+ok
+test_weak_homography_and_real_feather_boundary (test_pipeline.GeometryTests.test_weak_homography_and_real_feather_boundary) ... ok
+test_world_file_crs_and_pixel_centers (test_pipeline.GeometryTests.test_world_file_crs_and_pixel_centers) ... ok
+test_chroma_strips_equal_original_ism_reference (test_pipeline.NativeTests.test_chroma_strips_equal_original_ism_reference) ... ok
+test_fsr_flat_alpha_and_thread_repeatability (test_pipeline.NativeTests.test_fsr_flat_alpha_and_thread_repeatability) ... ok
+test_full_pipeline_writes_final_2x_and_reports (test_pipeline.NativeTests.test_full_pipeline_writes_final_2x_and_reports) ... [load] starting
+[load] 0.004s
+[scan_and_source_cross_checks] starting
+[scan 1/3] 0.png: FLAGGED; 4320 inliers; 11 suspect tiles
+[scan 2/3] 1.png: FLAGGED; 4287 inliers; 11 suspect tiles
+[scan 3/3] 2.png: FLAGGED; 4367 inliers; 11 suspect tiles
+[cross-check] 3/3 overlapping source pairs
+[scan_and_source_cross_checks] 1.175s
+[repair] starting
+[repair] 0.png: 1 verified tiles, appearance matched
+[repair] 2.png: 10 verified tiles, appearance matched
+[repair] 0.070s
+[native_build] starting
+[native_build] 0.000s
+[openrt_build] starting
+[openrt_build] 0.003s
+[ism_sharpen] starting
+[ism_sharpen] 0.162s
+[ism_color_grade] starting
+[ism_color_grade] 0.027s
+[raytrace] starting
+[raytrace] 0.071s
+[highlight_bloom] starting
+[highlight_bloom] 0.008s
+[fsr_2x] starting
+[FSR EASU] 17%
+[FSR EASU] 35%
+[FSR EASU] 53%
+[FSR EASU] 71%
+[FSR EASU] 88%
+[FSR EASU] 100%
+[FSR RCAS] 17%
+[FSR RCAS] 35%
+[FSR RCAS] 53%
+[FSR RCAS] 71%
+[FSR RCAS] 88%
+[FSR RCAS] 100%
+[fsr_2x] 0.094s
+[final_export] starting
+[final_export] 0.063s
+Complete: /private/var/folders/dv/w0qjghzn47q3by1r00jm1v780000gn/T/tmp3z5yrgdd/result (1.68s)
+ok
+test_ray_plane_neutral_and_occluder_casts_shadow (test_pipeline.NativeTests.test_ray_plane_neutral_and_occluder_casts_shadow) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 5.630s
+
+OK

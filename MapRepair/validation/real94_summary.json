@@ -1,0 +1,59 @@
+{
+  "photos": 94,
+  "wall_seconds": 52.62055762500677,
+  "stage_seconds": {
+    "load": 0.5366374169971095,
+    "scan_and_source_cross_checks": 24.345798708003713,
+    "repair": 4.650823208001384,
+    "native_build": 0.0030867499954183586,
+    "ism_sharpen": 6.188377791993844,
+    "ism_color_grade": 3.685896833005245,
+    "raytrace": 0.004021582994027995,
+    "highlight_bloom": 0.5716693329959526,
+    "fsr_2x": 2.8354113750028773,
+    "final_export": 4.988829249996343
+  },
+  "source_map": "/Users/avneh/Code/ADM/final_test/map_neutral.png",
+  "source_map_sha256": "b55ff5f3c094e23981d7f172bc43f49a3895a6094636dffdeffd9ab980cf8d9a",
+  "output": "/Users/avneh/Code/ADM/output/maprepair94_20260915/final_2x.png",
+  "output_dimensions": [
+    13000,
+    11956
+  ],
+  "repaired_tiles": 42,
+  "photos_used_for_patches": 29,
+  "affected_pixels": 1072000,
+  "photo_status_counts": {
+    "FLAGGED": 32,
+    "PATCHED": 29,
+    "CONSISTENT": 22,
+    "UNRESOLVED": 11
+  },
+  "pair_status_counts": {
+    "CONSISTENT": 90,
+    "DISAGREEMENT": 25,
+    "UNCONFIRMED": 30
+  },
+  "tests": 8,
+  "tests_passed": true,
+  "tested_platform": "macOS-26.6-arm64-arm-64bit",
+  "python": "3.12.11",
+  "opencv": "5.0.0",
+  "numpy": "2.5.3",
+  "full_mapping_included": false,
+  "independent_survey_accuracy_verified": false,
+  "source_hashes": {
+    "run.py": "58aed4e9b0e79231cd19693a6589bbc51dd7ee5c6fa3bf3437dbc72b81d3e9c9",
+    "CMakeLists.txt": "0243e21f89eba5726f9e09cdb6b10b61c3480f543cd4ec4231427224ea7329fc",
+    "requirements.txt": "0f9d92b4b0a7e90d3b3db50bba848f1ac5f0890d72c3164de66a8c70acd9ea2b",
+    "FSR_LICENSE.txt": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802",
+    "native.py": "66dd7ee1556a9b106eb80b61e8efa4121072e2b0b7c1d8735420709719193748",
+    "native.cpp": "82beb70e307022c266b02f070675238bae0e924c6d282ff9656cc4703b0b7b7f",
+    "presentation.py": "1d6a0aa7fa617b3377e55e9284fdfbad3295543044abc0873eb2290b6adcbde8",
+    "georeference.py": "040104f62977a9a204fd63003a32f1d4463f63469496982deb14a348b052a59d",
+    "map_geo_checker.py": "6a0e0b232662be8154ad6d656f7761ef1e77fd1c14f3520f676516594aca4d35",
+    "cinematic_grade.py": "b4af88cec40e39f093142d99170abce99026ecc71517862064dd5104200e1cca"
+  },
+  "geometry_stage_unrelated_pixels_exact": true,
+  "geometry_stage_alpha_exact": true
+}

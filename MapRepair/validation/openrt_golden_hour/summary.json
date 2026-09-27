@@ -1,0 +1,43 @@
+{
+  "input": "/Users/avneh/Downloads/odm.png",
+  "photos_folder": "/Users/avneh/Downloads/101SIYI_IMG",
+  "photos": 40,
+  "total_seconds": 14.178139208001085,
+  "stage_seconds": {
+    "load": 0.010173499998927582,
+    "scan_and_source_cross_checks": 13.451983291997749,
+    "repair": 0.04322183300246252,
+    "native_build": 0.00286808300006669,
+    "openrt_build": 0.011754416998883244,
+    "ism_sharpen": 0.15558395800326252,
+    "ism_color_grade": 0.04960491700330749,
+    "raytrace": 0.0999032499967143,
+    "highlight_bloom": 0.011052084002585616,
+    "fsr_2x": 0.08747470899834298,
+    "final_export": 0.1850642909994349
+  },
+  "photo_status_counts": {
+    "UNRESOLVED": 17,
+    "CONSISTENT": 19,
+    "FLAGGED": 4
+  },
+  "repaired_tiles": 0,
+  "repair_pixels_unchanged": true,
+  "final_size": [
+    1754,
+    1356
+  ],
+  "original_footprint_mask_exact": true,
+  "all_stage_alpha_exact": true,
+  "original_input_hash_unchanged": true,
+  "georeferenced": false,
+  "mean_lighting_delta_rgb_codes": [
+    6.083784537343503,
+    -1.2806159159591308,
+    -8.383173388257303
+  ],
+  "final_jpeg": "/Users/avneh/Code/ADM/output/siyi_odm_openrt_golden_hour/final_2x.jpg",
+  "comparison": "/Users/avneh/Code/ADM/output/siyi_odm_openrt_golden_hour/comparison.jpg",
+  "timing_scope": "Existing PNG scan/repair and finish; initial C++ compilation excluded. Comparison export excluded.",
+  "lighting": "Actual OpenRT warm sun/cool sky on a flat plane; artistic 5 pm look, original shadows retained"
+}

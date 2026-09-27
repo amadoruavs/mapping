@@ -1,0 +1,7 @@
+{
+  "archive": "/Users/avneh/Code/ADM/MapRepair-linux.tar.gz",
+  "bytes": 151745,
+  "sha256": "301598e1c83ab2693a43e0a846e39b4922c5d34aed8cfdc17e65060de13b8f95",
+  "members": 186,
+  "entrypoint": "bash run.sh"
+}

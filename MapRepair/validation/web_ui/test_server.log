@@ -1,0 +1,3 @@
+MapRepair: http://127.0.0.1:8766
+Results: /Users/avneh/Code/ADM/MapRepair/validation/web_ui/runs
+Keep this terminal open. Ctrl+C stops the server and active run.

@@ -1,0 +1,156 @@
+[load] starting
+[load] 0.514s
+[scan_and_source_cross_checks] starting
+[scan 1/94] IMG_0006.jpg: CONSISTENT; 110 inliers; 0 suspect tiles
+[scan 2/94] IMG_0012.jpg: FLAGGED; 323 inliers; 1 suspect tiles
+[scan 3/94] IMG_0018.jpg: FLAGGED; 379 inliers; 3 suspect tiles
+[scan 4/94] IMG_0024.jpg: CONSISTENT; 546 inliers; 0 suspect tiles
+[scan 5/94] IMG_0030.jpg: FLAGGED; 391 inliers; 1 suspect tiles
+[scan 6/94] IMG_0036.jpg: CONSISTENT; 293 inliers; 0 suspect tiles
+[scan 7/94] IMG_0042.jpg: CONSISTENT; 217 inliers; 0 suspect tiles
+[scan 8/94] IMG_0048.jpg: CONSISTENT; 250 inliers; 0 suspect tiles
+[scan 9/94] IMG_0054.jpg: FLAGGED; 157 inliers; 1 suspect tiles
+[scan 10/94] IMG_0060.jpg: FLAGGED; 163 inliers; 3 suspect tiles
+[scan 11/94] IMG_0066.jpg: FLAGGED; 168 inliers; 4 suspect tiles
+[scan 12/94] IMG_0072.jpg: CONSISTENT; 281 inliers; 0 suspect tiles
+[scan 13/94] IMG_0078.jpg: FLAGGED; 255 inliers; 2 suspect tiles
+[scan 14/94] IMG_0084.jpg: FLAGGED; 193 inliers; 3 suspect tiles
+[scan 15/94] IMG_0090.jpg: FLAGGED; 208 inliers; 10 suspect tiles
+[scan 16/94] IMG_0096.jpg: CONSISTENT; 204 inliers; 0 suspect tiles
+[scan 17/94] IMG_0102.jpg: FLAGGED; 59 inliers; 1 suspect tiles
+[scan 18/94] IMG_0108.jpg: FLAGGED; 51 inliers; 2 suspect tiles
+[scan 19/94] IMG_0114.jpg: FLAGGED; 61 inliers; 1 suspect tiles
+[scan 20/94] IMG_0120.jpg: CONSISTENT; 86 inliers; 0 suspect tiles
+[scan 21/94] IMG_0126.jpg: CONSISTENT; 100 inliers; 0 suspect tiles
+[scan 22/94] IMG_0132.jpg: CONSISTENT; 162 inliers; 0 suspect tiles
+[scan 23/94] IMG_0138.jpg: CONSISTENT; 190 inliers; 0 suspect tiles
+[scan 24/94] IMG_0144.jpg: CONSISTENT; 209 inliers; 0 suspect tiles
+[scan 25/94] IMG_0150.jpg: CONSISTENT; 241 inliers; 0 suspect tiles
+[scan 26/94] IMG_0156.jpg: CONSISTENT; 347 inliers; 0 suspect tiles
+[scan 27/94] IMG_0162.jpg: CONSISTENT; 346 inliers; 0 suspect tiles
+[scan 28/94] IMG_0168.jpg: CONSISTENT; 394 inliers; 0 suspect tiles
+[scan 29/94] IMG_0174.jpg: CONSISTENT; 146 inliers; 0 suspect tiles
+[scan 30/94] IMG_0180.jpg: CONSISTENT; 70 inliers; 0 suspect tiles
+[scan 31/94] IMG_0186.jpg: CONSISTENT; 48 inliers; 0 suspect tiles
+[scan 32/94] IMG_0192.jpg: CONSISTENT; 96 inliers; 0 suspect tiles
+[scan 33/94] IMG_0198.jpg: CONSISTENT; 35 inliers; 0 suspect tiles
+[scan 34/94] IMG_0204.jpg: CONSISTENT; 44 inliers; 0 suspect tiles
+[scan 35/94] IMG_0210.jpg: CONSISTENT; 40 inliers; 0 suspect tiles
+[scan 36/94] IMG_0216.jpg: CONSISTENT; 57 inliers; 0 suspect tiles
+[scan 37/94] IMG_0222.jpg: UNRESOLVED; 19 inliers; 0 suspect tiles
+[scan 38/94] IMG_0228.jpg: CONSISTENT; 43 inliers; 0 suspect tiles
+[scan 39/94] IMG_0234.jpg: FLAGGED; 236 inliers; 5 suspect tiles
+[scan 40/94] IMG_0240.jpg: CONSISTENT; 901 inliers; 0 suspect tiles
+[scan 41/94] IMG_0246.jpg: UNRESOLVED; 24 inliers; 0 suspect tiles
+[scan 42/94] IMG_0252.jpg: UNRESOLVED; 18 inliers; 0 suspect tiles
+[scan 43/94] IMG_0258.jpg: UNRESOLVED; 19 inliers; 0 suspect tiles
+[scan 44/94] IMG_0264.jpg: UNRESOLVED; 24 inliers; 0 suspect tiles
+[scan 45/94] IMG_0270.jpg: UNRESOLVED; 11 inliers; 0 suspect tiles
+[scan 46/94] IMG_0276.jpg: UNRESOLVED; 17 inliers; 0 suspect tiles
+[scan 47/94] IMG_0282.jpg: UNRESOLVED; 0 inliers; 0 suspect tiles
+[scan 48/94] IMG_0288.jpg: UNRESOLVED; 20 inliers; 0 suspect tiles
+[scan 49/94] IMG_0294.jpg: UNRESOLVED; 21 inliers; 0 suspect tiles
+[scan 50/94] IMG_0300.jpg: UNRESOLVED; 18 inliers; 0 suspect tiles
+[scan 51/94] IMG_0306.jpg: CONSISTENT; 65 inliers; 0 suspect tiles
+[scan 52/94] IMG_0312.jpg: CONSISTENT; 108 inliers; 0 suspect tiles
+[scan 53/94] IMG_0318.jpg: FLAGGED; 53 inliers; 1 suspect tiles
+[scan 54/94] IMG_0324.jpg: CONSISTENT; 81 inliers; 0 suspect tiles
+[scan 55/94] IMG_0330.jpg: CONSISTENT; 248 inliers; 0 suspect tiles
+[scan 56/94] IMG_0336.jpg: CONSISTENT; 290 inliers; 0 suspect tiles
+[scan 57/94] IMG_0342.jpg: FLAGGED; 243 inliers; 2 suspect tiles
+[scan 58/94] IMG_0348.jpg: CONSISTENT; 240 inliers; 0 suspect tiles
+[scan 59/94] IMG_0354.jpg: FLAGGED; 169 inliers; 1 suspect tiles
+[scan 60/94] IMG_0360.jpg: CONSISTENT; 222 inliers; 0 suspect tiles
+[scan 61/94] IMG_0366.jpg: CONSISTENT; 188 inliers; 0 suspect tiles
+[scan 62/94] IMG_0372.jpg: CONSISTENT; 193 inliers; 0 suspect tiles
+[scan 63/94] IMG_0378.jpg: FLAGGED; 161 inliers; 7 suspect tiles
+[scan 64/94] IMG_0384.jpg: UNRESOLVED; 160 inliers; 0 suspect tiles
+[scan 65/94] IMG_0390.jpg: FLAGGED; 128 inliers; 4 suspect tiles
+[scan 66/94] IMG_0396.jpg: UNRESOLVED; 25 inliers; 0 suspect tiles
+[scan 67/94] IMG_0402.jpg: FLAGGED; 87 inliers; 1 suspect tiles
+[scan 68/94] IMG_0408.jpg: CONSISTENT; 354 inliers; 0 suspect tiles
+[scan 69/94] IMG_0414.jpg: CONSISTENT; 106 inliers; 0 suspect tiles
+[scan 70/94] IMG_0420.jpg: CONSISTENT; 338 inliers; 0 suspect tiles
+[scan 71/94] IMG_0426.jpg: CONSISTENT; 344 inliers; 0 suspect tiles
+[scan 72/94] IMG_0432.jpg: CONSISTENT; 411 inliers; 0 suspect tiles
+[scan 73/94] IMG_0438.jpg: CONSISTENT; 439 inliers; 0 suspect tiles
+[scan 74/94] IMG_0444.jpg: FLAGGED; 483 inliers; 1 suspect tiles
+[scan 75/94] IMG_0450.jpg: CONSISTENT; 436 inliers; 0 suspect tiles
+[scan 76/94] IMG_0456.jpg: CONSISTENT; 586 inliers; 0 suspect tiles
+[scan 77/94] IMG_0462.jpg: FLAGGED; 484 inliers; 2 suspect tiles
+[scan 78/94] IMG_0468.jpg: FLAGGED; 447 inliers; 2 suspect tiles
+[scan 79/94] IMG_0474.jpg: CONSISTENT; 415 inliers; 0 suspect tiles
+[scan 80/94] IMG_0480.jpg: CONSISTENT; 349 inliers; 0 suspect tiles
+[scan 81/94] IMG_0486.jpg: CONSISTENT; 388 inliers; 0 suspect tiles
+[scan 82/94] IMG_0492.jpg: FLAGGED; 481 inliers; 3 suspect tiles
+[scan 83/94] IMG_0498.jpg: FLAGGED; 633 inliers; 1 suspect tiles
+[scan 84/94] IMG_0504.jpg: CONSISTENT; 1056 inliers; 0 suspect tiles
+[scan 85/94] IMG_0510.jpg: FLAGGED; 730 inliers; 1 suspect tiles
+[scan 86/94] IMG_0516.jpg: CONSISTENT; 727 inliers; 0 suspect tiles
+[scan 87/94] IMG_0522.jpg: CONSISTENT; 679 inliers; 0 suspect tiles
+[scan 88/94] IMG_0528.jpg: FLAGGED; 765 inliers; 1 suspect tiles
+[scan 89/94] IMG_0534.jpg: CONSISTENT; 464 inliers; 0 suspect tiles
+[scan 90/94] IMG_0540.jpg: CONSISTENT; 403 inliers; 0 suspect tiles
+[scan 91/94] IMG_0546.jpg: CONSISTENT; 376 inliers; 0 suspect tiles
+[scan 92/94] IMG_0552.jpg: FLAGGED; 439 inliers; 1 suspect tiles
+[scan 93/94] IMG_0558.jpg: CONSISTENT; 165 inliers; 0 suspect tiles
+[scan 94/94] IMG_0564.jpg: CONSISTENT; 80 inliers; 0 suspect tiles
+[cross-check] 10/143 overlapping source pairs
+[cross-check] 20/143 overlapping source pairs
+[cross-check] 30/143 overlapping source pairs
+[cross-check] 40/143 overlapping source pairs
+[cross-check] 50/143 overlapping source pairs
+[cross-check] 60/143 overlapping source pairs
+[cross-check] 70/143 overlapping source pairs
+[cross-check] 80/143 overlapping source pairs
+[cross-check] 90/143 overlapping source pairs
+[cross-check] 100/143 overlapping source pairs
+[cross-check] 110/143 overlapping source pairs
+[cross-check] 120/143 overlapping source pairs
+[cross-check] 130/143 overlapping source pairs
+[cross-check] 140/143 overlapping source pairs
+[cross-check] 143/143 overlapping source pairs
+[scan_and_source_cross_checks] 21.535s
+[repair] starting
+[repair] IMG_0018.jpg: 3 verified tiles, appearance matched
+[repair] IMG_0030.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0054.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0060.jpg: 3 verified tiles, appearance matched
+[repair] IMG_0066.jpg: 3 verified tiles, appearance matched
+[repair] IMG_0108.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0114.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0342.jpg: 2 verified tiles, appearance matched
+[repair] IMG_0354.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0444.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0492.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0498.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0510.jpg: 1 verified tiles, appearance matched
+[repair] IMG_0552.jpg: 1 verified tiles, appearance matched
+[repair] 1.394s
+[native_build] starting
+[native_build] 0.004s
+[ism_sharpen] starting
+[ism_sharpen] 2.623s
+[ism_color_grade] starting
+[ism_color_grade] 0.793s
+[raytrace] starting
+[raytrace] 0.002s
+[highlight_bloom] starting
+[highlight_bloom] 0.282s
+[fsr_2x] starting
+[FSR EASU] 3%
+[FSR EASU] 22%
+[FSR EASU] 42%
+[FSR EASU] 61%
+[FSR EASU] 81%
+[FSR EASU] 100%
+[FSR RCAS] 3%
+[FSR RCAS] 22%
+[FSR RCAS] 42%
+[FSR RCAS] 61%
+[FSR RCAS] 81%
+[FSR RCAS] 100%
+[fsr_2x] 1.200s
+[final_export] starting
+[final_export] 1.477s
+Complete: /Users/avneh/Code/ADM/output/south_1st_place_repaired (31.83s)

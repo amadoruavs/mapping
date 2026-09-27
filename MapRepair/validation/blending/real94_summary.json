@@ -1,0 +1,27 @@
+{
+  "total_seconds": 43.778553750002175,
+  "stage_seconds": {
+    "load": 0.46893716699560173,
+    "scan_and_source_cross_checks": 22.306248749999213,
+    "repair": 3.1893372920021648,
+    "native_build": 0.0032102089971886016,
+    "ism_sharpen": 5.651982249997673,
+    "ism_color_grade": 1.672302958999353,
+    "raytrace": 0.003022666001925245,
+    "highlight_bloom": 0.5821539999960805,
+    "fsr_2x": 2.4928964999999152,
+    "final_export": 3.124149249997572
+  },
+  "photos": 94,
+  "repaired_tiles": 42,
+  "patch_sources": 29,
+  "selection_identical_to_previous": true,
+  "alpha_stage_exact": true,
+  "outside_repair_pixels_exact": true,
+  "delivered_alpha_sidecar_exact": true,
+  "affected_pixels": 1048649,
+  "input_sha256": "b55ff5f3c094e23981d7f172bc43f49a3895a6094636dffdeffd9ab980cf8d9a",
+  "output": "/Users/avneh/Code/ADM/output/maprepair94_blended_jpeg/final_2x.jpg",
+  "input_raster": "Existing PNG neutral map; TIFF loading/embedded georeference and masks covered by the test suite",
+  "validation_note": "Existing map + 94 source photo checks, repair and finishing; original mapping excluded. No surveyed real-flight truth."
+}

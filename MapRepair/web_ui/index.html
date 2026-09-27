@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MapRepair</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+  <script src="/grading.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <main id="main">
+    <header><h1>MapRepair</h1><span class="local">Local tool</span></header>
+    <p class="intro">Repair, refine and color grade your map. Export every pixel in lossless PNG or JPEG.</p>
+    <form id="run-form">
+      <fieldset id="inputs">
+        <legend class="sr-only">Map and source photos</legend>
+        <label class="field-label" for="map-file">1. Map image</label>
+        <div id="drop-zone">
+          <strong id="file-name">Drop your TIFF here</strong>
+          <span id="file-info">TIFF, PNG or JPEG</span>
+          <label class="button secondary" for="map-file">Choose file</label>
+          <input id="map-file" type="file" accept=".tif,.tiff,.png,.jpg,.jpeg" aria-describedby="file-info">
+        </div>
+        <label class="field-label" for="photo-folder">2. Source photos folder</label>
+        <div id="folder-drop-zone" class="folder-zone">
+          <strong id="folder-name">Drop your photos folder here</strong>
+          <span id="folder-info">Photos stay on this computer</span>
+          <label class="button secondary" for="photo-folder">Choose folder</label>
+          <input id="photo-folder" type="file" webkitdirectory multiple aria-describedby="folder-info">
+        </div>
+        <details id="path-option">
+          <summary>Or use a folder path without copying photos</summary>
+          <label for="photos" class="sr-only">Source photos folder path</label>
+          <input id="photos" type="text" placeholder="/path/to/source/photos" spellcheck="false" autocomplete="off" aria-describedby="folder-help">
+          <p class="hint" id="folder-help">Paste the full path to the photos folder on this computer.</p>
+        </details>
+      </fieldset>
+      <p id="form-error" class="error" role="alert" hidden></p>
+      <div class="actions">
+        <button id="run" type="submit">Run MapRepair</button>
+        <button id="stop" class="secondary" type="button" hidden>Stop</button>
+      </div>
+    </form>
+    <section id="status-panel" aria-label="Run status" hidden>
+      <div class="status-line"><h2 id="status" role="status" aria-live="polite">Ready</h2><span id="elapsed"></span></div>
+      <progress id="progress" aria-label="Run progress"></progress>
+      <p id="status-note" class="hint"></p>
+      <p id="connection" class="error" role="status" hidden></p>
+      <p id="run-error" class="error" role="alert" hidden></p>
+      <div id="result" hidden>
+        <a id="download" class="button secondary" href="#" download>Download original finish</a>
+        <p class="hint" id="result-info"></p>
+        <details id="grading" open>
+          <summary>Color grading &amp; detail</summary>
+          <p class="hint">Release a slider to update the entire image at up to 1920 × 1080. Download renders your settings at full resolution.</p>
+          <div class="grade-workspace">
+            <div class="grade-view">
+              <div class="grade-toolbar"><strong>Full image preview</strong><button id="grade-compare" class="secondary" type="button" aria-pressed="false">Show original</button></div>
+              <div class="grade-stage"><img id="grade-image" alt="Full map with current grading at up to 1080p" hidden></div>
+              <p id="grade-status" role="status" aria-live="polite">Preparing preview…</p>
+              <details id="grade-detail"><summary>Inspect full-resolution detail</summary><p class="hint">Click anywhere on the full image to inspect that area. This crop uses the full-resolution settings and lossless pixels.</p><img id="grade-detail-image" alt="Full-resolution detail crop"><p id="grade-detail-status" role="status"></p></details>
+              <div class="actions"><button id="grade-auto" type="button">Auto cinema · offline</button><button id="grade-reset" class="secondary" type="button">Reset all</button></div>
+              <p class="hint" id="grade-auto-status" role="status">Analyzes this map’s tones, neutral surfaces and noise. Every adjustment stays editable.</p>
+              <div class="actions"><label for="grade-format">Download format</label><select id="grade-format"><option value="png">Lossless PNG · transparency</option><option value="jpeg">JPEG · smaller file</option></select><button id="grade-export" type="button">Download full-resolution grade</button></div>
+              <p id="grade-export-status" class="hint" role="status" aria-live="polite"></p>
+            </div>
+            <div class="grade-adjustments">
+              <div id="grade-controls"></div>
+              <details class="grade-section" open>
+                <summary>Tone curves</summary>
+                <div class="curve-toolbar"><label for="curve-channel">Channel</label><select id="curve-channel"><option value="master">Master RGB</option><option value="red">Red</option><option value="green">Green</option><option value="blue">Blue</option></select></div>
+                <svg id="curve-editor" viewBox="0 0 256 256" role="group" aria-label="Tone curve. Click to add a point; drag or use arrow keys to adjust." tabindex="0"></svg>
+                <div class="curve-toolbar"><label for="curve-input">Input</label><input id="curve-input" type="number" min="0" max="255" step="1"><label for="curve-output">Output</label><input id="curve-output" type="number" min="0" max="255" step="1"></div>
+                <div class="curve-actions"><button id="curve-add" class="secondary" type="button">Add point</button><button id="curve-remove" class="secondary" type="button">Remove point</button></div>
+                <div class="curve-toolbar"><label for="curve-preset">Preset</label><select id="curve-preset"><option value="">Choose…</option><option value="linear">Linear</option><option value="soft">Soft S-curve</option><option value="strong">Strong S-curve</option><option value="matte">Lifted blacks</option></select></div>
+                <p class="hint">Click to add, drag to shape. Arrow keys adjust the selected point; Delete removes it. Input/output fields give exact values.</p>
+              </details>
+              <div id="grade-extra-controls"></div>
+            </div>
+          </div>
+        </details>
+        <img id="preview" alt="Finished map preview">
+      </div>
+      <details id="log-details">
+        <summary>Run log</summary>
+        <pre id="log" tabindex="0" aria-label="Run log"></pre>
+        <a id="download-log" href="#" download>Download log</a>
+      </details>
+      <p class="hint saved-path" id="saved-path"></p>
+    </section>
+    <footer>Files stay on this computer. Keep the server terminal open while processing.</footer>
+    <noscript><p class="error">Enable JavaScript to upload and run a map.</p></noscript>
+  </main>
+</body>
+</html>

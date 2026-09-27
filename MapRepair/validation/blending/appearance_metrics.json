@@ -1,0 +1,1381 @@
+{
+  "seconds": 3.978969457995845,
+  "patches": [
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0012.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.5954387990589181,
+          0.006768267939795737,
+          2520.0254852631188
+        ],
+        [
+          0.09043761731922849,
+          -0.5828696929612216,
+          2149.2250750046032
+        ],
+        [
+          1.4296107229686874e-05,
+          2.960156389129329e-05,
+          0.9999617720743224
+        ]
+      ],
+      "source_index": 2,
+      "blending": [
+        {
+          "context_pixels": 49478,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            1.3950119018554688,
+            -1.7472381591796875,
+            0.0576324462890625
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.000934362411499,
+          "texture_ratio_after": 1.000934362411499,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            256,
+            1377,
+            544,
+            1665
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0018.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6018636359121833,
+          0.019197694974820705,
+          2484.2337638087142
+        ],
+        [
+          0.07112625785798717,
+          -0.6002255812766473,
+          2501.160251118
+        ],
+        [
+          1.5352150811101398e-05,
+          2.4349744980132952e-05,
+          0.9999654238227134
+        ]
+      ],
+      "source_index": 3,
+      "blending": [
+        {
+          "context_pixels": 37625,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -1.72576904296875,
+            -0.16764068603515625,
+            -1.1054954528808594
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0167628526687622,
+          "texture_ratio_after": 1.0167628526687622,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            256,
+            1697,
+            544,
+            1985
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0024.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6090078898902636,
+          0.02443416609073957,
+          2466.2663504499583
+        ],
+        [
+          0.0574228917571698,
+          -0.6158287170633153,
+          2843.671493324113
+        ],
+        [
+          1.6491994099209318e-05,
+          1.8996904160842878e-05,
+          0.9999690904911138
+        ]
+      ],
+      "source_index": 4,
+      "blending": [
+        {
+          "context_pixels": 40054,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -1.6735916137695312,
+            -0.94390869140625,
+            -1.2565193176269531
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0044028759002686,
+          "texture_ratio_after": 1.0044028759002686,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            256,
+            1857,
+            544,
+            2145
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0030.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6165865033234748,
+          0.028795541568687896,
+          2469.184898789118
+        ],
+        [
+          0.04708014947340511,
+          -0.6133381326787922,
+          3162.101873084879
+        ],
+        [
+          1.625459889864821e-05,
+          2.0353071743858396e-05,
+          0.999968116741026
+        ]
+      ],
+      "source_index": 5,
+      "blending": [
+        {
+          "context_pixels": 31449,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -1.0122528076171875,
+            -2.0643997192382812,
+            -2.6565399169921875
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.9850539565086365,
+          "texture_ratio_after": 0.9850539565086365,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            96,
+            2177,
+            384,
+            2465
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0042.jpg",
+      "tiles": 2,
+      "affected_pixels": 47242,
+      "H": [
+        [
+          -0.6256811375138122,
+          0.03450818815109554,
+          2472.838638397931
+        ],
+        [
+          0.04314233481532965,
+          -0.6135291831613718,
+          3707.764716348852
+        ],
+        [
+          1.9839141771141675e-05,
+          2.4133317076320824e-05,
+          0.9999617021437154
+        ]
+      ],
+      "source_index": 7,
+      "blending": [
+        {
+          "context_pixels": 52992,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            1.4924888610839844,
+            1.2035140991210938,
+            2.6460647583007812
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.9960548877716064,
+          "texture_ratio_after": 0.9960548877716064,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 47242,
+          "bounds_xyxy": [
+            576,
+            2177,
+            864,
+            2625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0048.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6275090010533436,
+          0.03046360157303968,
+          2461.823337544696
+        ],
+        [
+          0.04257200297672522,
+          -0.6307827447211376,
+          4017.617251430599
+        ],
+        [
+          2.1365978732909615e-05,
+          1.8122428225976872e-05,
+          0.9999656044439966
+        ]
+      ],
+      "source_index": 8,
+      "blending": [
+        {
+          "context_pixels": 51072,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            11.481903076171875,
+            12.892677307128906,
+            13.6025390625
+          ],
+          "blur_sigma_px": 0.4,
+          "texture_ratio_before": 1.3186941146850586,
+          "texture_ratio_after": 1.1493442058563232,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            256,
+            3457,
+            544,
+            3745
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0054.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6343179026355242,
+          0.030324045149754418,
+          2468.775317127069
+        ],
+        [
+          0.04369953441554891,
+          -0.6376164788196218,
+          4323.334251860237
+        ],
+        [
+          2.2902664075453263e-05,
+          1.701636764061175e-05,
+          0.9999652282227904
+        ]
+      ],
+      "source_index": 9,
+      "blending": [
+        {
+          "context_pixels": 47734,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            8.381942749023438,
+            9.424835205078125,
+            10.889610290527344
+          ],
+          "blur_sigma_px": 0.4,
+          "texture_ratio_before": 1.2028157711029053,
+          "texture_ratio_after": 1.052541971206665,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            256,
+            3777,
+            544,
+            4065
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0072.jpg",
+      "tiles": 2,
+      "affected_pixels": 50244,
+      "H": [
+        [
+          -0.6372944793416521,
+          0.011316465304733053,
+          2452.1586091983017
+        ],
+        [
+          0.05785626672385328,
+          -0.7183872371085125,
+          5228.513813851051
+        ],
+        [
+          2.6932729911961614e-05,
+          -3.3973363891071728e-06,
+          0.9999794876292966
+        ]
+      ],
+      "source_index": 12,
+      "blending": [
+        {
+          "context_pixels": 55198,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            3.539325714111328,
+            0.8827590942382812,
+            3.4773521423339844
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.9222216606140137,
+          "texture_ratio_after": 0.9222216606140137,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 50244,
+          "bounds_xyxy": [
+            1056,
+            3777,
+            1344,
+            4225
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0078.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.0656196530524693,
+          -0.6437098775116367,
+          2251.6691461556993
+        ],
+        [
+          0.7630183483775215,
+          -0.1269150811394259,
+          3363.135545691716
+        ],
+        [
+          1.900023334225454e-05,
+          4.3574901948935046e-06,
+          0.9999796492042159
+        ]
+      ],
+      "source_index": 13,
+      "blending": [
+        {
+          "context_pixels": 48907,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            0.05789947509765625,
+            0.48673248291015625,
+            -0.57452392578125
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0026322603225708,
+          "texture_ratio_after": 1.0026322603225708,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            1536,
+            5057,
+            1824,
+            5345
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0084.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.0670521707574697,
+          -0.6337514891144912,
+          2426.7874118943087
+        ],
+        [
+          0.7205868342535575,
+          -0.10933949190137526,
+          3419.3714841642213
+        ],
+        [
+          1.2893362242794856e-05,
+          5.782567839016893e-06,
+          0.9999837302928949
+        ]
+      ],
+      "source_index": 14,
+      "blending": [
+        {
+          "context_pixels": 52226,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            2.0935440063476562,
+            2.6054725646972656,
+            2.1201438903808594
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.1431832313537598,
+          "texture_ratio_after": 1.1431832313537598,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            1696,
+            4577,
+            1984,
+            4865
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0090.jpg",
+      "tiles": 2,
+      "affected_pixels": 50244,
+      "H": [
+        [
+          -0.06645165987189901,
+          -0.6300772293935778,
+          2639.5192832484518
+        ],
+        [
+          0.6843145743437918,
+          -0.09758380298037606,
+          3464.3296822547622
+        ],
+        [
+          7.392588288996404e-06,
+          6.280382861072879e-06,
+          0.9999880904474463
+        ]
+      ],
+      "source_index": 15,
+      "blending": [
+        {
+          "context_pixels": 59992,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -1.171966552734375,
+            -2.021564483642578,
+            0.8431625366210938
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.8886738419532776,
+          "texture_ratio_after": 0.8886738419532776,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 50244,
+          "bounds_xyxy": [
+            1376,
+            5217,
+            1664,
+            5665
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0144.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.5223030673754824,
+          -0.06382507435936739,
+          875.2436882172817
+        ],
+        [
+          -0.03273910091950182,
+          0.5073000544331153,
+          1132.511936457497
+        ],
+        [
+          -1.4855360220227854e-05,
+          -2.8294796348480997e-05,
+          1.0000375776572827
+        ]
+      ],
+      "source_index": 24,
+      "blending": [
+        {
+          "context_pixels": 52720,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -7.0181121826171875,
+            -2.016590118408203,
+            -0.24423980712890625
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.9510584473609924,
+          "texture_ratio_after": 0.9510584473609924,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            1376,
+            1697,
+            1664,
+            1985
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0156.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.5012802603432772,
+          -0.08927192156584143,
+          933.3873925805144
+        ],
+        [
+          -0.030923474605510797,
+          0.48178609215318646,
+          727.2281291734645
+        ],
+        [
+          -1.6026095857528304e-05,
+          -4.0758207817533085e-05,
+          1.0000494479970101
+        ]
+      ],
+      "source_index": 26,
+      "blending": [
+        {
+          "context_pixels": 53051,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -2.31005859375,
+            3.5023651123046875,
+            6.643241882324219
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.8223238587379456,
+          "texture_ratio_after": 0.8223238587379456,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            1216,
+            897,
+            1504,
+            1185
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0336.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.7029105165776635,
+          0.045049457729779516,
+          5328.677590525599
+        ],
+        [
+          0.041639877318367415,
+          -0.5895368804801602,
+          2176.7128422464307
+        ],
+        [
+          -1.6960489132484692e-05,
+          3.076941067786552e-05,
+          0.9999879932866365
+        ]
+      ],
+      "source_index": 45,
+      "blending": [
+        {
+          "context_pixels": 40348,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            3.62603759765625,
+            5.1937408447265625,
+            1.2086906433105469
+          ],
+          "blur_sigma_px": 0.7,
+          "texture_ratio_before": 1.8121602535247803,
+          "texture_ratio_after": 0.996147632598877,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4416,
+            1537,
+            4704,
+            1825
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0348.jpg",
+      "tiles": 4,
+      "affected_pixels": 100805,
+      "H": [
+        [
+          -0.6815295833620595,
+          0.030018028172040297,
+          5322.23174877586
+        ],
+        [
+          0.018635862655487726,
+          -0.6226549048952851,
+          2775.772721468906
+        ],
+        [
+          -8.49751247869434e-06,
+          1.8099991616436117e-05,
+          0.9999916478758594
+        ]
+      ],
+      "source_index": 47,
+      "blending": [
+        {
+          "context_pixels": 120309,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            6.79473876953125,
+            7.419471740722656,
+            3.8329925537109375
+          ],
+          "blur_sigma_px": 0.4,
+          "texture_ratio_before": 1.2594704627990723,
+          "texture_ratio_after": 1.1186580657958984,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 100805,
+          "bounds_xyxy": [
+            4256,
+            1697,
+            4704,
+            2305
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0354.jpg",
+      "tiles": 4,
+      "affected_pixels": 100489,
+      "H": [
+        [
+          -0.7611967992089183,
+          -0.029689728456033543,
+          5298.2380266352575
+        ],
+        [
+          -0.04892502178746785,
+          -0.6373132884372423,
+          3059.3552687329625
+        ],
+        [
+          -3.235402455880152e-05,
+          3.0310771323259892e-06,
+          1.0000255554918165
+        ]
+      ],
+      "source_index": 48,
+      "blending": [
+        {
+          "context_pixels": 131505,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            5.318817138671875,
+            3.7779617309570312,
+            -0.36788177490234375
+          ],
+          "blur_sigma_px": 0.7,
+          "texture_ratio_before": 1.7945936918258667,
+          "texture_ratio_after": 0.9777861833572388,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 100489,
+          "bounds_xyxy": [
+            4416,
+            2177,
+            4864,
+            2785
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0366.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.739104307953913,
+          -0.13399431831814312,
+          5296.645853693427
+        ],
+        [
+          -0.0600290286711414,
+          -0.6765315447076415,
+          3601.324816402125
+        ],
+        [
+          -3.244394793989537e-05,
+          -1.9851392542538456e-05,
+          1.0000455543792506
+        ]
+      ],
+      "source_index": 50,
+      "blending": [
+        {
+          "context_pixels": 30308,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -5.399192810058594,
+            -7.553314208984375,
+            -9.163150787353516
+          ],
+          "blur_sigma_px": 0.7,
+          "texture_ratio_before": 1.9036052227020264,
+          "texture_ratio_after": 1.0385794639587402,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4736,
+            2497,
+            5024,
+            2785
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0378.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.8345488622885165,
+          -0.23946862580631126,
+          5309.151402410688
+        ],
+        [
+          -0.16214318690874246,
+          -0.7148097038496357,
+          4157.439730487837
+        ],
+        [
+          -5.7711181673315054e-05,
+          -4.116834934976749e-05,
+          1.0000861306239384
+        ]
+      ],
+      "source_index": 52,
+      "blending": [
+        {
+          "context_pixels": 55312,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -2.655658721923828,
+            -8.260231018066406,
+            -9.70785903930664
+          ],
+          "blur_sigma_px": 0.4,
+          "texture_ratio_before": 1.2040748596191406,
+          "texture_ratio_after": 1.0905508995056152,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4736,
+            3457,
+            5024,
+            3745
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0420.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.6654568192309873,
+          0.26238986092548766,
+          3556.800731668276
+        ],
+        [
+          0.01772579399154593,
+          0.8041009003082114,
+          3334.350949216308
+        ],
+        [
+          1.1047460237383395e-05,
+          5.227117315538992e-05,
+          0.9999448678199128
+        ]
+      ],
+      "source_index": 59,
+      "blending": [
+        {
+          "context_pixels": 55179,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -3.1714935302734375,
+            -1.4972305297851562,
+            -5.7609405517578125
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.9717541933059692,
+          "texture_ratio_after": 0.9717541933059692,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4736,
+            3777,
+            5024,
+            4065
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0432.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.6267473756822393,
+          0.20852683986571102,
+          3523.9550084826774
+        ],
+        [
+          0.0003651001669470317,
+          0.7552126721125045,
+          2886.4908797738854
+        ],
+        [
+          3.92928413771093e-06,
+          4.096625530080412e-05,
+          0.9999609123928667
+        ]
+      ],
+      "source_index": 61,
+      "blending": [
+        {
+          "context_pixels": 53458,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -7.156635284423828,
+            -7.21728515625,
+            -10.459354400634766
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.6257428526878357,
+          "texture_ratio_after": 0.6257428526878357,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5376,
+            3617,
+            5664,
+            3905
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0438.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.6489259931986814,
+          0.07963644841734693,
+          3506.7942842027596
+        ],
+        [
+          0.021593630294950816,
+          0.6746544400831005,
+          2363.0312807622918
+        ],
+        [
+          8.651774739266199e-06,
+          1.4660377406683311e-05,
+          0.9999796978819573
+        ]
+      ],
+      "source_index": 62,
+      "blending": [
+        {
+          "context_pixels": 36353,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -24.0,
+            -24.0,
+            -24.0
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.47827836871147156,
+          "texture_ratio_after": 0.47827836871147156,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4896,
+            2497,
+            5184,
+            2785
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0468.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.6594229715938448,
+          -0.15303280206537306,
+          3476.491939248459
+        ],
+        [
+          0.03905569925219502,
+          0.5380207496842649,
+          1063.841245371087
+        ],
+        [
+          1.7007216603134454e-05,
+          -3.537611102209767e-05,
+          1.0000159763952792
+        ]
+      ],
+      "source_index": 67,
+      "blending": [
+        {
+          "context_pixels": 27096,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -5.7492218017578125,
+            -6.336769104003906,
+            -2.781940460205078
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.838996410369873,
+          "texture_ratio_after": 0.838996410369873,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4576,
+            2017,
+            4864,
+            2305
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0474.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          0.6320086846380608,
+          -0.1493941523632751,
+          3484.3159852560643
+        ],
+        [
+          0.03332944342771831,
+          0.5310866246205815,
+          794.2959872368897
+        ],
+        [
+          1.3886561773824866e-05,
+          -3.604407904050334e-05,
+          1.0000192773282122
+        ]
+      ],
+      "source_index": 68,
+      "blending": [
+        {
+          "context_pixels": 54324,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -3.243610382080078,
+            -3.113677978515625,
+            -0.5298385620117188
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.909947395324707,
+          "texture_ratio_after": 0.909947395324707,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4736,
+            1057,
+            5024,
+            1345
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0492.jpg",
+      "tiles": 3,
+      "affected_pixels": 75525,
+      "H": [
+        [
+          -0.6486824833252999,
+          -0.20842810054329938,
+          6109.184674092272
+        ],
+        [
+          0.19456809793583757,
+          -0.5018342465344703,
+          1869.578103654421
+        ],
+        [
+          -3.3288945412383556e-05,
+          1.1110198799057859e-05,
+          1.0000193368615256
+        ]
+      ],
+      "source_index": 71,
+      "blending": [
+        {
+          "context_pixels": 88127,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -6.74237060546875,
+            -8.045501708984375,
+            -8.359024047851562
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.8109488487243652,
+          "texture_ratio_after": 0.8109488487243652,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 75525,
+          "bounds_xyxy": [
+            5056,
+            1857,
+            5504,
+            2305
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0498.jpg",
+      "tiles": 2,
+      "affected_pixels": 49928,
+      "H": [
+        [
+          -0.627130968312401,
+          -0.24922980331106878,
+          6242.760341183851
+        ],
+        [
+          0.20218581370531016,
+          -0.5298232735783878,
+          2133.64400451766
+        ],
+        [
+          -2.6647133558363934e-05,
+          1.9108036436756525e-06,
+          1.0000215576074132
+        ]
+      ],
+      "source_index": 72,
+      "blending": [
+        {
+          "context_pixels": 43890,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -1.7159500122070312,
+            -2.3689498901367188,
+            -2.6298065185546875
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0164597034454346,
+          "texture_ratio_after": 1.0164597034454346,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5376,
+            1377,
+            5664,
+            1665
+          ]
+        },
+        {
+          "context_pixels": 30898,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            -12.660835266113281,
+            -13.999126434326172,
+            -15.813220977783203
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.5624911189079285,
+          "texture_ratio_after": 0.5624911189079285,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5056,
+            2177,
+            5344,
+            2465
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0504.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6228404109235096,
+          -0.25143526559527696,
+          6322.391343614746
+        ],
+        [
+          0.20415361146435868,
+          -0.5380470764836045,
+          2307.0887016096094
+        ],
+        [
+          -2.4459377961678052e-05,
+          5.449975889138014e-07,
+          1.0000208401485795
+        ]
+      ],
+      "source_index": 73,
+      "blending": [
+        {
+          "context_pixels": 27059,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            15.450294494628906,
+            14.616874694824219,
+            14.278038024902344
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0094174146652222,
+          "texture_ratio_after": 1.0094174146652222,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4896,
+            2337,
+            5184,
+            2625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0510.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6187223653702493,
+          -0.34845385760604836,
+          6412.865019886327
+        ],
+        [
+          0.19084919271346562,
+          -0.5801432806727775,
+          2567.842620106608
+        ],
+        [
+          -2.5034861552954793e-05,
+          -1.999541302311972e-05,
+          1.0000392232679205
+        ]
+      ],
+      "source_index": 74,
+      "blending": [
+        {
+          "context_pixels": 48513,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            2.0877304077148438,
+            0.2895355224609375,
+            0.768310546875
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 0.992392361164093,
+          "texture_ratio_after": 0.992392361164093,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5856,
+            2337,
+            6144,
+            2625
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0516.jpg",
+      "tiles": 2,
+      "affected_pixels": 49928,
+      "H": [
+        [
+          -0.629314530943364,
+          -0.36510096921281693,
+          6500.704832855043
+        ],
+        [
+          0.17574727311320973,
+          -0.595873509308288,
+          2794.587198096679
+        ],
+        [
+          -2.6680191596102192e-05,
+          -2.5173482428314454e-05,
+          1.00004516486722
+        ]
+      ],
+      "source_index": 75,
+      "blending": [
+        {
+          "context_pixels": 51153,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            10.883827209472656,
+            9.884033203125,
+            10.847843170166016
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.02440345287323,
+          "texture_ratio_after": 1.02440345287323,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5376,
+            2017,
+            5664,
+            2305
+          ]
+        },
+        {
+          "context_pixels": 31722,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            18.359943389892578,
+            20.269142150878906,
+            24.0
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0033001899719238,
+          "texture_ratio_after": 1.0033001899719238,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            4896,
+            2177,
+            5184,
+            2465
+          ]
+        }
+      ]
+    },
+    {
+      "file": "/Users/avneh/Downloads/mapv2/IMG_0522.jpg",
+      "tiles": 1,
+      "affected_pixels": 24964,
+      "H": [
+        [
+          -0.6901723005057583,
+          -0.18880852665214576,
+          6400.029529706855
+        ],
+        [
+          -0.04009949280758169,
+          -0.6596354033400635,
+          3545.9387876102533
+        ],
+        [
+          -2.880959106974335e-05,
+          -2.876142006140355e-05,
+          1.0000501439959188
+        ]
+      ],
+      "source_index": 76,
+      "blending": [
+        {
+          "context_pixels": 54167,
+          "appearance_matched": true,
+          "color_offset_bgr": [
+            23.59942626953125,
+            24.0,
+            24.0
+          ],
+          "blur_sigma_px": 0.0,
+          "texture_ratio_before": 1.0419962406158447,
+          "texture_ratio_after": 1.0419962406158447,
+          "feather_px": 32.0,
+          "color_feather_px": 64.0,
+          "affected_pixels": 24964,
+          "bounds_xyxy": [
+            5056,
+            3137,
+            5344,
+            3425
+          ]
+        }
+      ]
+    }
+  ]
+}

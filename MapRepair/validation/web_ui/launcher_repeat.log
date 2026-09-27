@@ -1,0 +1,6 @@
+
+Checking and compiling image processors…
+/Users/avneh/Code/ADM/MapRepair/build/maprepair-007e77079a4b98bf.dylib
+/Users/avneh/Code/ADM/MapRepair/build/openrt-darwin-arm64-3533508b7aa9/maprepair_openrt
+
+Setup complete. Start the UI with ./run.sh

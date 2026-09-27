@@ -1,0 +1,48 @@
+{
+  "input": "/Users/avneh/Downloads/South-1st-Place-9-15-2026-orthophoto (1).tif",
+  "input_sha256": "79e151e6b428de9a6068c466eccbe7c84eeb30483ec3d2e05757c92a55018619",
+  "final_jpeg": "/Users/avneh/Code/ADM/output/south_1st_place_repaired/final_2x.jpg",
+  "total_seconds": 31.831957791000605,
+  "stage_seconds": {
+    "load": 0.5140477500026464,
+    "scan_and_source_cross_checks": 21.534807957999874,
+    "repair": 1.3936820000017178,
+    "native_build": 0.003575125003408175,
+    "ism_sharpen": 2.6226197500000126,
+    "ism_color_grade": 0.7934244159987429,
+    "raytrace": 0.0016958749984041788,
+    "highlight_bloom": 0.2822708329986199,
+    "fsr_2x": 1.1998627499997383,
+    "final_export": 1.4769646249988
+  },
+  "photos": 94,
+  "repaired_tiles": 21,
+  "source_photos_patched": 14,
+  "affected_pixels": 270071,
+  "photo_status_counts": {
+    "CONSISTENT": 32,
+    "FLAGGED": 35,
+    "PATCHED": 14,
+    "UNRESOLVED": 13
+  },
+  "original_alpha_exact": true,
+  "unpatched_pixels_exact_before_finishing": true,
+  "exported_alpha_exact": true,
+  "original_world_bounds_preserved": true,
+  "jpeg_dimensions": [
+    9358,
+    7882
+  ],
+  "crop_input_bounds_xyxy": [
+    0,
+    0,
+    4679,
+    3941
+  ],
+  "jpeg_background_rgb": [
+    255,
+    255,
+    255
+  ],
+  "input_hash_matches_run": true
+}

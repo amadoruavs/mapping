@@ -1,0 +1,83 @@
+[load] starting
+[GPS] No explicit map georeference; using visual checks. Camera extents are not treated as map ground truth.
+[load] 0.010s
+[scan_and_source_cross_checks] starting
+[scan 1/40] IMG_0007.jpg: UNRESOLVED; 0 inliers; 0 suspect tiles
+[scan 2/40] IMG_0008.jpg: UNRESOLVED; 0 inliers; 0 suspect tiles
+[scan 3/40] IMG_0009.jpg: UNRESOLVED; 0 inliers; 0 suspect tiles
+[scan 4/40] IMG_0010.jpg: UNRESOLVED; 11 inliers; 0 suspect tiles
+[scan 5/40] IMG_0011.jpg: UNRESOLVED; 23 inliers; 0 suspect tiles
+[scan 6/40] IMG_0012.jpg: CONSISTENT; 35 inliers; 0 suspect tiles
+[scan 7/40] IMG_0013.jpg: CONSISTENT; 65 inliers; 0 suspect tiles
+[scan 8/40] IMG_0014.jpg: CONSISTENT; 76 inliers; 0 suspect tiles
+[scan 9/40] IMG_0015.jpg: CONSISTENT; 91 inliers; 0 suspect tiles
+[scan 10/40] IMG_0016.jpg: CONSISTENT; 100 inliers; 0 suspect tiles
+[scan 11/40] IMG_0017.jpg: CONSISTENT; 92 inliers; 0 suspect tiles
+[scan 12/40] IMG_0018.jpg: CONSISTENT; 98 inliers; 0 suspect tiles
+[scan 13/40] IMG_0019.jpg: CONSISTENT; 99 inliers; 0 suspect tiles
+[scan 14/40] IMG_0020.jpg: CONSISTENT; 123 inliers; 0 suspect tiles
+[scan 15/40] IMG_0021.jpg: CONSISTENT; 103 inliers; 0 suspect tiles
+[scan 16/40] IMG_0022.jpg: CONSISTENT; 144 inliers; 0 suspect tiles
+[scan 17/40] IMG_0023.jpg: CONSISTENT; 166 inliers; 0 suspect tiles
+[scan 18/40] IMG_0024.jpg: CONSISTENT; 160 inliers; 0 suspect tiles
+[scan 19/40] IMG_0025.jpg: CONSISTENT; 145 inliers; 0 suspect tiles
+[scan 20/40] IMG_0026.jpg: CONSISTENT; 115 inliers; 0 suspect tiles
+[scan 21/40] IMG_0027.jpg: CONSISTENT; 104 inliers; 0 suspect tiles
+[scan 22/40] IMG_0028.jpg: CONSISTENT; 65 inliers; 0 suspect tiles
+[scan 23/40] IMG_0029.jpg: CONSISTENT; 34 inliers; 0 suspect tiles
+[scan 24/40] IMG_0030.jpg: UNRESOLVED; 25 inliers; 0 suspect tiles
+[scan 25/40] IMG_0031.jpg: UNRESOLVED; 22 inliers; 0 suspect tiles
+[scan 26/40] IMG_0032.jpg: CONSISTENT; 30 inliers; 0 suspect tiles
+[scan 27/40] IMG_0033.jpg: CONSISTENT; 31 inliers; 0 suspect tiles
+[scan 28/40] IMG_0034.jpg: UNRESOLVED; 21 inliers; 0 suspect tiles
+[scan 29/40] IMG_0035.jpg: UNRESOLVED; 16 inliers; 0 suspect tiles
+[scan 30/40] IMG_0036.jpg: UNRESOLVED; 15 inliers; 0 suspect tiles
+[scan 31/40] IMG_0037.jpg: UNRESOLVED; 22 inliers; 0 suspect tiles
+[scan 32/40] IMG_0038.jpg: UNRESOLVED; 23 inliers; 0 suspect tiles
+[scan 33/40] IMG_0039.jpg: UNRESOLVED; 22 inliers; 0 suspect tiles
+[scan 34/40] IMG_0040.jpg: CONSISTENT; 31 inliers; 0 suspect tiles
+[scan 35/40] IMG_0041.jpg: CONSISTENT; 31 inliers; 0 suspect tiles
+[scan 36/40] IMG_0042.jpg: UNRESOLVED; 23 inliers; 0 suspect tiles
+[scan 37/40] IMG_0043.jpg: UNRESOLVED; 21 inliers; 0 suspect tiles
+[scan 38/40] IMG_0044.jpg: UNRESOLVED; 20 inliers; 0 suspect tiles
+[scan 39/40] IMG_0045.jpg: CONSISTENT; 31 inliers; 0 suspect tiles
+[scan 40/40] IMG_0046.jpg: UNRESOLVED; 22 inliers; 0 suspect tiles
+[cross-check] 10/46 overlapping source pairs
+[cross-check] 20/46 overlapping source pairs
+[cross-check] 30/46 overlapping source pairs
+[cross-check] 40/46 overlapping source pairs
+[cross-check] 46/46 overlapping source pairs
+[scan_and_source_cross_checks] 13.452s
+[repair] starting
+[repair] 0.043s
+[native_build] starting
+[native_build] 0.003s
+[openrt_build] starting
+[openrt_build] 0.012s
+[ism_sharpen] starting
+[ism_sharpen] 0.156s
+[ism_color_grade] starting
+[ism_color_grade] 0.050s
+[raytrace] starting
+[raytrace] 0.100s
+[highlight_bloom] starting
+[highlight_bloom] 0.011s
+[fsr_2x] starting
+[FSR EASU] 18%
+[FSR EASU] 37%
+[FSR EASU] 56%
+[FSR EASU] 75%
+[FSR EASU] 94%
+[FSR EASU] 100%
+[FSR RCAS] 18%
+[FSR RCAS] 37%
+[FSR RCAS] 56%
+[FSR RCAS] 75%
+[FSR RCAS] 94%
+[FSR RCAS] 100%
+[fsr_2x] 0.087s
+[final_export] starting
+/Users/avneh/Code/ADM/.venv/lib/python3.12/site-packages/rasterio/__init__.py:377: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+  dataset = writer(
+[final_export] 0.185s
+Complete: /Users/avneh/Code/ADM/output/siyi_odm_openrt_golden_hour (14.18s)

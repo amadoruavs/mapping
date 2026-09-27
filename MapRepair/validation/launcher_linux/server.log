@@ -1,0 +1,11 @@
+
+Checking and compiling image processors…
+/work with spaces/MapRepair/build/maprepair-bab8e8e7ca820ca3.so
+/work with spaces/MapRepair/build/openrt-linux-x86_64-ef14fba456e0/maprepair_openrt
+
+Starting MapRepair…
+MapRepair: http://127.0.0.1:8765
+Results: /work with spaces/MapRepair/web_runs
+Keep this terminal open. Ctrl+C stops the server and active run.
+
+Stopping MapRepair...

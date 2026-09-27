@@ -1,0 +1,13 @@
+{
+  "upstream": "https://github.com/Project-10/OpenRT",
+  "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+  "license": "BSD-3-Clause; ../third_party/OpenRT/License.txt",
+  "upstream_modifications": "GCC portability: BxDF.h includes cmath and uses std::sqrt's float overload; BRDFPhong.cpp and BRDFBlinn.cpp use std::pow's float overload instead of std::sqrtf/std::powf",
+  "adapter": "trace.cpp and CMakeLists.txt",
+  "tested_platform": "macOS arm64, Apple M4 Pro; Ubuntu 24.04 x86-64 container under emulation",
+  "opencv_cpp_version": "4.14.0 on macOS; 4.6.0 on Ubuntu",
+  "language_standard": "C++20",
+  "implemented_lighting": "OpenRT colored diffuse sun and 16 fixed sky samples, normalized against a neutral-lit reference plane; explicit linear RGB field",
+  "default_scene": "flat map plane; artistic golden_hour_5pm preset, neutral available",
+  "sun_position": "15 degrees elevation, 255 degrees azimuth; artistic look, not calculated solar ephemeris"
+}

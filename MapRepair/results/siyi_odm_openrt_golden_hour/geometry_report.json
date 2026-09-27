@@ -1,0 +1,1947 @@
+{
+  "photos": [
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0007.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679969,
+        "lon": -121.895563,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "reason": "Not enough independently validated feature matches",
+      "seconds": 0.3141396249993704
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0008.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.895561,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "reason": "Not enough independently validated feature matches",
+      "seconds": 0.266476832999615
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0009.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679969,
+        "lon": -121.895561,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "reason": "Not enough independently validated feature matches",
+      "seconds": 0.29014383299363544
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0010.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.895562,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 17,
+      "inliers": 11,
+      "inlier_ratio": 0.6470588235294118,
+      "support_fraction": 0.27416536819487825,
+      "held_out_matches": 4,
+      "held_out_inlier_ratio": 0.75,
+      "mean_reprojection_px": 0.5507060872230135,
+      "p95_reprojection_px": 1.3745115229564793,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.05454823332142987,
+          0.001480448521538442,
+          298.9516367852164
+        ],
+        [
+          -0.004468650425828698,
+          -0.05402802692141269,
+          165.12406695889072
+        ],
+        [
+          -6.997584276191229e-06,
+          -1.420407397183236e-05,
+          1.0000184633704337
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2710049169982085
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0011.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.89556,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 26,
+      "inliers": 23,
+      "inlier_ratio": 0.8846153846153846,
+      "support_fraction": 0.404901903024706,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.5508711261986682,
+      "p95_reprojection_px": 1.6184007350655647,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.06719575807188771,
+          0.005725610899027383,
+          327.5613649641162
+        ],
+        [
+          -0.0056451907130101705,
+          -0.0673023243985935,
+          184.7072050181023
+        ],
+        [
+          7.709205100475165e-07,
+          -6.85068794599029e-07,
+          0.9999999245902182
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2646356250043027
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679969,
+        "lon": -121.895559,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 37,
+      "inliers": 35,
+      "inlier_ratio": 0.9459459459459459,
+      "support_fraction": 0.5467759529026968,
+      "held_out_matches": 8,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7137370553494886,
+      "p95_reprojection_px": 1.5407126687506236,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.07974955857649837,
+          0.006778765939281564,
+          351.8647017524062
+        ],
+        [
+          -0.00813629950079787,
+          -0.08048820617384812,
+          204.16164373720957
+        ],
+        [
+          3.0687826470642543e-07,
+          -5.4734683966530636e-06,
+          1.0000044975512687
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.26909391599474475
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.895561,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 66,
+      "inliers": 65,
+      "inlier_ratio": 0.9848484848484849,
+      "support_fraction": 0.6411624009441086,
+      "held_out_matches": 14,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7407351590923372,
+      "p95_reprojection_px": 1.3422969082196035,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.09195376105945208,
+          0.0073794326847718555,
+          373.07381179107495
+        ],
+        [
+          -0.00952930434341355,
+          -0.09408976566231657,
+          220.53836829284032
+        ],
+        [
+          4.865500962982027e-06,
+          -8.782427826666223e-06,
+          1.0000034056795495
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2733674589981092
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0014.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.895563,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 79,
+      "inliers": 76,
+      "inlier_ratio": 0.9620253164556962,
+      "support_fraction": 0.551732596080256,
+      "held_out_matches": 16,
+      "held_out_inlier_ratio": 0.875,
+      "mean_reprojection_px": 0.6987795913803773,
+      "p95_reprojection_px": 1.2946885144018085,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.10906111765318698,
+          0.010561374672202141,
+          398.6862786009468
+        ],
+        [
+          -0.012158823236639566,
+          -0.11055561727356152,
+          242.48862099099438
+        ],
+        [
+          4.376977743489585e-06,
+          -6.914003670286488e-06,
+          1.000002204820342
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.29143304099852685
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0015.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679971,
+        "lon": -121.895566,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 95,
+      "inliers": 91,
+      "inlier_ratio": 0.9578947368421052,
+      "support_fraction": 0.47566730119523415,
+      "held_out_matches": 19,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7579468127101081,
+      "p95_reprojection_px": 1.4466603295732465,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.12116520932264607,
+          0.014243795844807028,
+          416.9843115507863
+        ],
+        [
+          -0.013792435148902934,
+          -0.1220523864276623,
+          258.04284319898403
+        ],
+        [
+          5.399511251406723e-06,
+          7.481101869616027e-07,
+          0.9999946434380346
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.3116825839970261
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.895565,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 103,
+      "inliers": 100,
+      "inlier_ratio": 0.970873786407767,
+      "support_fraction": 0.4885944597321268,
+      "held_out_matches": 21,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.8316001285806764,
+      "p95_reprojection_px": 1.767601614007016,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.12681149412530962,
+          0.013991552208404626,
+          430.0477982959697
+        ],
+        [
+          -0.014467591135213642,
+          -0.12855885632056166,
+          269.68269876791885
+        ],
+        [
+          7.506560169685469e-06,
+          -4.974029110887853e-06,
+          0.9999977887516981
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27605033299914794
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679969,
+        "lon": -121.895562,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 96,
+      "inliers": 92,
+      "inlier_ratio": 0.9583333333333334,
+      "support_fraction": 0.44589629804307973,
+      "held_out_matches": 20,
+      "held_out_inlier_ratio": 0.9,
+      "mean_reprojection_px": 0.8477864221955201,
+      "p95_reprojection_px": 1.7441274730661434,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.1312810537879461,
+          0.015735360934307874,
+          442.7595349173395
+        ],
+        [
+          -0.016059775015485712,
+          -0.132064066506894,
+          277.5408387597561
+        ],
+        [
+          4.9713999762871775e-06,
+          -4.160443589118397e-06,
+          0.9999992896890335
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.277781832999608
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67997,
+        "lon": -121.89556,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 100,
+      "inliers": 98,
+      "inlier_ratio": 0.98,
+      "support_fraction": 0.44543468876226383,
+      "held_out_matches": 20,
+      "held_out_inlier_ratio": 0.95,
+      "mean_reprojection_px": 0.8581984434332477,
+      "p95_reprojection_px": 1.9953089582502361,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.13195063333995194,
+          0.014257712504102531,
+          449.2582192127541
+        ],
+        [
+          -0.014265507749052934,
+          -0.13354738254683368,
+          274.20048997493797
+        ],
+        [
+          6.395464498123979e-06,
+          -2.9015830730913557e-06,
+          0.9999969528069557
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2812651670028572
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679961,
+        "lon": -121.895557,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 105,
+      "inliers": 99,
+      "inlier_ratio": 0.9428571428571428,
+      "support_fraction": 0.5453212383679867,
+      "held_out_matches": 21,
+      "held_out_inlier_ratio": 0.9523809523809523,
+      "mean_reprojection_px": 0.8057538196466008,
+      "p95_reprojection_px": 1.7053979009756222,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.13416984861245337,
+          -0.003704020281445266,
+          478.4140574326683
+        ],
+        [
+          0.003411500155452102,
+          -0.13579929534649643,
+          262.05395087855214
+        ],
+        [
+          8.311389400663475e-06,
+          -4.471469085145655e-06,
+          0.9999966498926715
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2932788329999312
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0020.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.67994,
+        "lon": -121.895551,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 125,
+      "inliers": 123,
+      "inlier_ratio": 0.984,
+      "support_fraction": 0.5348548178706807,
+      "held_out_matches": 25,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7810598245254208,
+      "p95_reprojection_px": 1.6486016110865573,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.1337692067435056,
+          -0.017295603774755156,
+          504.0049986116451
+        ],
+        [
+          0.01656448493448436,
+          -0.13461950162511685,
+          281.44610881165545
+        ],
+        [
+          3.2759330945178177e-06,
+          -4.314885752845534e-06,
+          1.0000009016182354
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.3344833750015823
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679921,
+        "lon": -121.895541,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 108,
+      "inliers": 103,
+      "inlier_ratio": 0.9537037037037037,
+      "support_fraction": 0.46258125505069037,
+      "held_out_matches": 22,
+      "held_out_inlier_ratio": 0.9090909090909091,
+      "mean_reprojection_px": 0.6588746782733584,
+      "p95_reprojection_px": 1.2015678343941079,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.1327410468047995,
+          -0.025180919637669674,
+          527.8617219975216
+        ],
+        [
+          0.02387917603102389,
+          -0.1341616437560813,
+          306.563104311795
+        ],
+        [
+          1.4934969675275004e-06,
+          -5.4193734677147905e-06,
+          1.0000034164050342
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.3417454579976038
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679907,
+        "lon": -121.895535,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 148,
+      "inliers": 144,
+      "inlier_ratio": 0.972972972972973,
+      "support_fraction": 0.6092499823251655,
+      "held_out_matches": 30,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.8554836112621934,
+      "p95_reprojection_px": 2.5117412643146864,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.1326820365177485,
+          -0.02724181357481726,
+          540.1373568836191
+        ],
+        [
+          0.026105818382322742,
+          -0.13561700770330318,
+          334.0544374555578
+        ],
+        [
+          4.2159322520823446e-06,
+          -9.237097129598665e-06,
+          1.0000043675484531
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2855899169953773
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0023.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679904,
+        "lon": -121.895536,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 170,
+      "inliers": 166,
+      "inlier_ratio": 0.9764705882352941,
+      "support_fraction": 0.5490701539598475,
+      "held_out_matches": 34,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7798988654686339,
+      "p95_reprojection_px": 1.6687217929386733,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.12242925486447417,
+          -0.05618306842623435,
+          554.1148609039357
+        ],
+        [
+          0.0568877359072915,
+          -0.12571749630152737,
+          270.2676652436542
+        ],
+        [
+          8.672370160796931e-06,
+          -6.409843821467286e-06,
+          0.9999980227920852
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2783547910003108
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679903,
+        "lon": -121.895534,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 166,
+      "inliers": 160,
+      "inlier_ratio": 0.963855421686747,
+      "support_fraction": 0.5221785174879515,
+      "held_out_matches": 34,
+      "held_out_inlier_ratio": 0.9117647058823529,
+      "mean_reprojection_px": 0.927001758950732,
+      "p95_reprojection_px": 1.7102827547291775,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.06870688945033859,
+          -0.11620778840987303,
+          521.5672915306092
+        ],
+        [
+          0.1207659054599831,
+          -0.07022422271090438,
+          86.48087335616376
+        ],
+        [
+          9.425188622805538e-06,
+          4.6786602011717306e-06,
+          0.999987713574518
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2742707919969689
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679904,
+        "lon": -121.895529,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 148,
+      "inliers": 145,
+      "inlier_ratio": 0.9797297297297297,
+      "support_fraction": 0.6100102920234067,
+      "held_out_matches": 30,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.8645271726483933,
+      "p95_reprojection_px": 1.7276829685941446,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.024448810504455364,
+          -0.13314965274218743,
+          460.8976734847369
+        ],
+        [
+          0.13750988232635056,
+          -0.025858536602730034,
+          -0.04541395266001095
+        ],
+        [
+          8.034126778763675e-06,
+          4.190703162634919e-06,
+          0.9999893505806403
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2739178749980056
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679906,
+        "lon": -121.895506,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 119,
+      "inliers": 115,
+      "inlier_ratio": 0.9663865546218487,
+      "support_fraction": 0.494454179674723,
+      "held_out_matches": 24,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.8222722867461406,
+      "p95_reprojection_px": 1.7614568045007473,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.009310904617610052,
+          -0.13517864705941723,
+          473.8660245178437
+        ],
+        [
+          0.136546573705681,
+          -0.012419728718370954,
+          -20.092321360454736
+        ],
+        [
+          5.435931564156898e-06,
+          -3.59513463711961e-06,
+          0.9999983927484926
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27264000000286615
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679908,
+        "lon": -121.895478,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 106,
+      "inliers": 104,
+      "inlier_ratio": 0.9811320754716981,
+      "support_fraction": 0.5623085573436856,
+      "held_out_matches": 22,
+      "held_out_inlier_ratio": 0.9545454545454546,
+      "mean_reprojection_px": 0.7997987987438779,
+      "p95_reprojection_px": 1.7996049250388315,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.006272280707974416,
+          -0.13532056247434698,
+          517.7687805640314
+        ],
+        [
+          0.13578267607429395,
+          -0.007671929335673481,
+          -29.51522351144302
+        ],
+        [
+          4.3944782316964605e-06,
+          -2.6792203661081298e-06,
+          0.9999985029438423
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.274909583000408
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0028.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679911,
+        "lon": -121.895447,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 67,
+      "inliers": 65,
+      "inlier_ratio": 0.9701492537313433,
+      "support_fraction": 0.5050740886559721,
+      "held_out_matches": 14,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.8207938528440072,
+      "p95_reprojection_px": 2.318095398249996,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.00534055083063165,
+          -0.1364987118576759,
+          567.8237080254521
+        ],
+        [
+          0.13440680357133952,
+          -0.007220633836627125,
+          -36.922667613061435
+        ],
+        [
+          2.7873373661291613e-06,
+          -7.846297059959882e-06,
+          1.000004401694204
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27388416699977824
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.895416,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 38,
+      "inliers": 34,
+      "inlier_ratio": 0.8947368421052632,
+      "support_fraction": 0.3968021981782895,
+      "held_out_matches": 8,
+      "held_out_inlier_ratio": 0.875,
+      "mean_reprojection_px": 0.7360881429795135,
+      "p95_reprojection_px": 1.7728424035742947,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.003838525602296457,
+          -0.1402940572456966,
+          617.349271528417
+        ],
+        [
+          0.13227091777690533,
+          -0.01033512598388419,
+          -34.226654789476335
+        ],
+        [
+          3.7321632302526753e-06,
+          -2.042738683387472e-05,
+          1.0000145309190285
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.2760567910008831
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0030.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.895385,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 35,
+      "inliers": 25,
+      "inlier_ratio": 0.7142857142857143,
+      "support_fraction": 0.624019252251064,
+      "held_out_matches": 7,
+      "held_out_inlier_ratio": 0.8571428571428571,
+      "mean_reprojection_px": 1.1480331308158702,
+      "p95_reprojection_px": 2.3177495634398064,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.003032660277618595,
+          -0.13861765304726748,
+          679.4523468593272
+        ],
+        [
+          0.13620272612706918,
+          -0.007648977918693963,
+          -41.393580495116225
+        ],
+        [
+          5.712988122947344e-06,
+          -7.650324875867544e-06,
+          1.0000016815933184
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26284291699994355
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0031.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.895355,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 27,
+      "inliers": 22,
+      "inlier_ratio": 0.8148148148148148,
+      "support_fraction": 0.30629344618580673,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.8333333333333334,
+      "mean_reprojection_px": 1.4430871944504664,
+      "p95_reprojection_px": 2.6321573067387076,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.002922163189071333,
+          -0.14383389606093075,
+          728.971715255779
+        ],
+        [
+          0.13464868157766977,
+          -0.008430766349539948,
+          -40.45316475494781
+        ],
+        [
+          4.4594353533479025e-06,
+          -2.095511687185129e-05,
+          1.0000143565731259
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2753805829997873
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0032.jpg",
+      "status": "FLAGGED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679913,
+        "lon": -121.895326,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 36,
+      "inliers": 30,
+      "inlier_ratio": 0.8333333333333334,
+      "support_fraction": 0.17826967363462218,
+      "held_out_matches": 8,
+      "held_out_inlier_ratio": 0.75,
+      "mean_reprojection_px": 0.9701061954075918,
+      "p95_reprojection_px": 1.6396157972003584,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.018555267015965212,
+          -0.14227587838993527,
+          776.5821227264835
+        ],
+        [
+          0.11906975731111773,
+          -0.011117417366904433,
+          -19.88489036708433
+        ],
+        [
+          -1.8304556508917524e-05,
+          -2.4941133331150622e-05,
+          1.0000376638260484
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.28429691700148396,
+      "pairwise_disagreement": true
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0033.jpg",
+      "status": "FLAGGED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.895297,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 36,
+      "inliers": 31,
+      "inlier_ratio": 0.8611111111111112,
+      "support_fraction": 0.27173279643146814,
+      "held_out_matches": 8,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 1.1201721109537184,
+      "p95_reprojection_px": 2.3367632018259834,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.0028759392921040307,
+          -0.1281655726305024,
+          828.7591548867941
+        ],
+        [
+          0.13539353263817955,
+          -0.002403597393256444,
+          -43.88432854843396
+        ],
+        [
+          3.0848033677673e-06,
+          4.092803889415764e-06,
+          0.9999937487895023
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27767804200266255,
+      "pairwise_disagreement": true
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0034.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.895276,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 26,
+      "inliers": 21,
+      "inlier_ratio": 0.8076923076923077,
+      "support_fraction": 0.1295270965364154,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.5,
+      "mean_reprojection_px": 1.3573629153255111,
+      "p95_reprojection_px": 2.826550933534662,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.02741351615539367,
+          -0.1439141181995101,
+          845.5555825550919
+        ],
+        [
+          0.10484815416900622,
+          -0.014801672371882391,
+          4.614479416489812
+        ],
+        [
+          -3.419418236727456e-05,
+          -3.8713412306808995e-05,
+          1.0000635000728246
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26661266600422096
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0035.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679912,
+        "lon": -121.89527,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 22,
+      "inliers": 16,
+      "inlier_ratio": 0.7272727272727273,
+      "support_fraction": 0.1574084490951002,
+      "held_out_matches": 5,
+      "held_out_inlier_ratio": 0.8,
+      "mean_reprojection_px": 1.09542191657679,
+      "p95_reprojection_px": 2.4162963210047534,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.0299999697478986,
+          -0.17930488525734414,
+          860.4584358288578
+        ],
+        [
+          0.09784016662325412,
+          -0.03608221622980433,
+          30.027325857999905
+        ],
+        [
+          -3.223640494753901e-05,
+          -9.122979065802404e-05,
+          1.0001075125826762
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26787624999997206
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0036.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679913,
+        "lon": -121.895271,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 21,
+      "inliers": 15,
+      "inlier_ratio": 0.7142857142857143,
+      "support_fraction": 0.0706802954077006,
+      "held_out_matches": 5,
+      "held_out_inlier_ratio": 0.6,
+      "mean_reprojection_px": 0.9579329744931282,
+      "p95_reprojection_px": 1.8009333313659854,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.08020752041965029,
+          -0.1518025874982733,
+          913.2891410219739
+        ],
+        [
+          0.08060435538162292,
+          -0.05890842162359647,
+          84.9248020225001
+        ],
+        [
+          -5.5605709729521105e-05,
+          -6.778097518792865e-05,
+          1.0001074636998515
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2615238330035936
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0037.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679913,
+        "lon": -121.895273,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 27,
+      "inliers": 22,
+      "inlier_ratio": 0.8148148148148148,
+      "support_fraction": 0.2093097371837649,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.8333333333333334,
+      "mean_reprojection_px": 0.9586309214469263,
+      "p95_reprojection_px": 2.851055065970347,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.12128919440208,
+          -0.05004544944006078,
+          1009.771428130812
+        ],
+        [
+          0.052521748869278115,
+          -0.11669425696710588,
+          244.55697136103484
+        ],
+        [
+          -2.5866826681138077e-06,
+          6.438546293856826e-06,
+          0.9999966489787792
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2601167499960866
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0038.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679915,
+        "lon": -121.895271,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 26,
+      "inliers": 23,
+      "inlier_ratio": 0.8846153846153846,
+      "support_fraction": 0.11305922017221129,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.8333333333333334,
+      "mean_reprojection_px": 1.0056459679309955,
+      "p95_reprojection_px": 1.6978188894260287,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.14998179405040082,
+          0.03880833877438522,
+          938.3050043298158
+        ],
+        [
+          -0.028691965668011868,
+          -0.11142934899429444,
+          386.20843673572506
+        ],
+        [
+          -3.840454242270009e-05,
+          2.8878952100428774e-05,
+          1.0000083260019093
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2665828339959262
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0039.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679906,
+        "lon": -121.895275,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 25,
+      "inliers": 22,
+      "inlier_ratio": 0.88,
+      "support_fraction": 0.12897622917296392,
+      "held_out_matches": 5,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 1.2071772532691452,
+      "p95_reprojection_px": 2.250136111116743,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.11749267893834611,
+          0.04683008873992693,
+          898.4962558066997
+        ],
+        [
+          -0.04160350184157258,
+          -0.12458070459525175,
+          459.21157715888575
+        ],
+        [
+          9.096800800027913e-06,
+          7.752013967318725e-07,
+          0.9999913979298055
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26266312500229105
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+      "status": "CONSISTENT",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679883,
+        "lon": -121.895292,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 35,
+      "inliers": 31,
+      "inlier_ratio": 0.8857142857142857,
+      "support_fraction": 0.2693522980871043,
+      "held_out_matches": 7,
+      "held_out_inlier_ratio": 0.8571428571428571,
+      "mean_reprojection_px": 1.2040207422181306,
+      "p95_reprojection_px": 2.8820721157661358,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.1298568747748481,
+          0.0636216890502133,
+          835.2366267165742
+        ],
+        [
+          -0.062036609305045134,
+          -0.10997701813049933,
+          522.8131008197514
+        ],
+        [
+          -2.210371101778201e-05,
+          9.399736201441707e-06,
+          1.0000110787862366
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27605616699293023
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+      "status": "FLAGGED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679866,
+        "lon": -121.89531,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 33,
+      "inliers": 31,
+      "inlier_ratio": 0.9393939393939394,
+      "support_fraction": 0.30130010293797505,
+      "held_out_matches": 7,
+      "held_out_inlier_ratio": 0.8571428571428571,
+      "mean_reprojection_px": 1.2519929749385141,
+      "p95_reprojection_px": 2.537760622603512,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.12773077216538026,
+          0.06876936123202045,
+          792.9362762053876
+        ],
+        [
+          -0.06853514978539534,
+          -0.10848055272039027,
+          567.7948238072299
+        ],
+        [
+          -2.2784150894971696e-05,
+          8.387489729756381e-06,
+          1.0000125529606307
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.27712670899927616,
+      "pairwise_disagreement": true
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0042.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679849,
+        "lon": -121.895329,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 28,
+      "inliers": 23,
+      "inlier_ratio": 0.8214285714285714,
+      "support_fraction": 0.3047860968711635,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.8333333333333334,
+      "mean_reprojection_px": 1.1299452217375245,
+      "p95_reprojection_px": 2.4900051150630946,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.12057465686938308,
+          0.05742464468394911,
+          756.0417025490424
+        ],
+        [
+          -0.06950922661701954,
+          -0.1110136592881419,
+          606.8065182080124
+        ],
+        [
+          -1.80333540933894e-05,
+          -7.971810470302665e-06,
+          1.0000226547063695
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26149804099986795
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0043.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679827,
+        "lon": -121.895344,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 23,
+      "inliers": 21,
+      "inlier_ratio": 0.9130434782608695,
+      "support_fraction": 0.347662486076706,
+      "held_out_matches": 5,
+      "held_out_inlier_ratio": 0.8,
+      "mean_reprojection_px": 1.0389433486356439,
+      "p95_reprojection_px": 1.9338268821604006,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.11581654401347506,
+          0.06350130775946933,
+          732.268218360291
+        ],
+        [
+          -0.06867750868306931,
+          -0.11144690701248507,
+          664.4249183875771
+        ],
+        [
+          -6.424780030963277e-06,
+          -2.0800902219256293e-06,
+          1.0000074095768487
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.2649185830014176
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0044.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679806,
+        "lon": -121.895357,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 27,
+      "inliers": 20,
+      "inlier_ratio": 0.7407407407407407,
+      "support_fraction": 0.20480633993678468,
+      "held_out_matches": 6,
+      "held_out_inlier_ratio": 0.8333333333333334,
+      "mean_reprojection_px": 0.6483837583428793,
+      "p95_reprojection_px": 1.0871686961141078,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.12111926429911068,
+          0.07990280188143353,
+          703.0954538207321
+        ],
+        [
+          -0.07538415363775046,
+          -0.09829275535025032,
+          709.1644510296414
+        ],
+        [
+          -1.975859914511099e-05,
+          2.5117125969261393e-05,
+          0.999995352283442
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26084137499856297
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0045.jpg",
+      "status": "FLAGGED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679788,
+        "lon": -121.895374,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 34,
+      "inliers": 31,
+      "inlier_ratio": 0.9117647058823529,
+      "support_fraction": 0.2898724892983866,
+      "held_out_matches": 7,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.7376725874393554,
+      "p95_reprojection_px": 1.143393983914303,
+      "reliable": true,
+      "H_photo_to_map": [
+        [
+          -0.12047412360864418,
+          0.06887144736692355,
+          672.5650755634344
+        ],
+        [
+          -0.07723958173094608,
+          -0.10693510709480282,
+          751.5173056486796
+        ],
+        [
+          -2.004168370084041e-05,
+          4.717724976257845e-06,
+          1.0000133578408044
+        ]
+      ],
+      "local_discrepancy_tiles": 0,
+      "seconds": 0.276459791995876,
+      "pairwise_disagreement": true
+    },
+    {
+      "file": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0046.jpg",
+      "status": "UNRESOLVED",
+      "patched_tiles": 0,
+      "gps": {
+        "lat": 37.679767,
+        "lon": -121.895391,
+        "source": "XMP",
+        "trusted": true
+      },
+      "search": "full map",
+      "matched": 25,
+      "inliers": 22,
+      "inlier_ratio": 0.88,
+      "support_fraction": 0.21238224684010776,
+      "held_out_matches": 5,
+      "held_out_inlier_ratio": 1.0,
+      "mean_reprojection_px": 0.6684290889965312,
+      "p95_reprojection_px": 1.270140175902054,
+      "reliable": false,
+      "H_photo_to_map": [
+        [
+          -0.11826315958088976,
+          0.06765495377701239,
+          638.4262051902183
+        ],
+        [
+          -0.07869321533220622,
+          -0.10676860624726162,
+          797.9611955401147
+        ],
+        [
+          -2.0804745954091007e-05,
+          2.287574336632723e-06,
+          1.000016138383047
+        ]
+      ],
+      "reason": "Weak validation/spatial support or implausible homography; no automatic patch",
+      "seconds": 0.26463329199759755
+    }
+  ],
+  "pairwise": [
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.2912921043137997,
+      "p90_map_px": 0.7841479062975993,
+      "direct_inliers": 1617
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.2967856555483685,
+      "p90_map_px": 1.1313003861155746,
+      "direct_inliers": 839
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5580043664012508,
+      "p90_map_px": 1.3203749193908847,
+      "direct_inliers": 946
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5016089211758956,
+      "p90_map_px": 1.135013303619966,
+      "direct_inliers": 892
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6702645181847066,
+      "p90_map_px": 1.2555264605143417,
+      "direct_inliers": 994
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0014.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.3932629458409085,
+      "p90_map_px": 0.7278148934376263,
+      "direct_inliers": 1598
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0015.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5636937813355878,
+      "p90_map_px": 0.9712478639311249,
+      "direct_inliers": 1392
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.4291903590903001,
+      "p90_map_px": 0.8770021918500333,
+      "direct_inliers": 1338
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6292711562906921,
+      "p90_map_px": 1.2634874392948297,
+      "direct_inliers": 1224
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5112674281631563,
+      "p90_map_px": 1.1461067931422244,
+      "direct_inliers": 1256
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0014.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0015.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.3145831513064366,
+      "p90_map_px": 0.6015397807982308,
+      "direct_inliers": 1907
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0014.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.18751886596350725,
+      "p90_map_px": 0.41982295014232435,
+      "direct_inliers": 1822
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0015.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.2915359410515118,
+      "p90_map_px": 0.8258098107555223,
+      "direct_inliers": 2180
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.42673770298015135,
+      "p90_map_px": 0.8110432557275743,
+      "direct_inliers": 2530
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.4505301551558388,
+      "p90_map_px": 1.0046147637674812,
+      "direct_inliers": 2134
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0020.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.9112678208661069,
+      "p90_map_px": 1.3565061531312705,
+      "direct_inliers": 828
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.23851986394501853,
+      "p90_map_px": 0.5478222146961516,
+      "direct_inliers": 2217
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0020.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6357867627335134,
+      "p90_map_px": 1.4545242729756627,
+      "direct_inliers": 1412
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0020.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5212040033421129,
+      "p90_map_px": 0.8483020154800011,
+      "direct_inliers": 1330
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5171772787572714,
+      "p90_map_px": 0.9694955418520717,
+      "direct_inliers": 1602
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.8934826392089317,
+      "p90_map_px": 1.4291729437242604,
+      "direct_inliers": 1142
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.7874261715554918,
+      "p90_map_px": 1.8265816063179532,
+      "direct_inliers": 1356
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0023.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.533427774202154,
+      "p90_map_px": 1.0974705196120182,
+      "direct_inliers": 1239
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6375565208801628,
+      "p90_map_px": 1.0735152524654106,
+      "direct_inliers": 1341
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6348720243390296,
+      "p90_map_px": 1.47263041793203,
+      "direct_inliers": 1546
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0023.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6056743656093297,
+      "p90_map_px": 1.5702946228180514,
+      "direct_inliers": 1617
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0023.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.7124325430503149,
+      "p90_map_px": 1.935148529592282,
+      "direct_inliers": 1221
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.4121475073879184,
+      "p90_map_px": 0.9983908984088219,
+      "direct_inliers": 1547
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5210624476629658,
+      "p90_map_px": 1.0546091223122858,
+      "direct_inliers": 1177
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.40317564382303894,
+      "p90_map_px": 0.5831483264193491,
+      "direct_inliers": 1216
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.5726807333708781,
+      "p90_map_px": 1.0791777995128862,
+      "direct_inliers": 535
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.877907714688268,
+      "p90_map_px": 2.4654727075400102,
+      "direct_inliers": 937
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0028.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.47457828936454055,
+      "p90_map_px": 1.1241243745417178,
+      "direct_inliers": 383
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+      "status": "UNCONFIRMED"
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0028.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.4963179217117414,
+      "p90_map_px": 0.7477708691420106,
+      "direct_inliers": 838
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.6536059380202731,
+      "p90_map_px": 1.6597293822364128,
+      "direct_inliers": 187
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0028.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.7311578348290508,
+      "p90_map_px": 1.3471799329517304,
+      "direct_inliers": 869
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0045.jpg",
+      "status": "UNCONFIRMED"
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0032.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0033.jpg",
+      "status": "DISAGREEMENT",
+      "median_map_px": 3.3920171839871207,
+      "p90_map_px": 10.791710483619838,
+      "direct_inliers": 882
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0032.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.8120485988298232,
+      "p90_map_px": 1.5648869947132908,
+      "direct_inliers": 377
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0032.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.7990170104303189,
+      "p90_map_px": 1.4905761343915547,
+      "direct_inliers": 267
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0033.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.9836616761879329,
+      "p90_map_px": 2.9754225868676527,
+      "direct_inliers": 538
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0033.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 1.3142353518784144,
+      "p90_map_px": 1.7483503683310846,
+      "direct_inliers": 369
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+      "status": "CONSISTENT",
+      "median_map_px": 0.8451006004078745,
+      "p90_map_px": 1.486839012854077,
+      "direct_inliers": 848
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0045.jpg",
+      "status": "UNCONFIRMED"
+    },
+    {
+      "photo_a": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+      "photo_b": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0045.jpg",
+      "status": "DISAGREEMENT",
+      "median_map_px": 7.064773811789711,
+      "p90_map_px": 10.490615078868307,
+      "direct_inliers": 57
+    }
+  ],
+  "patches": [],
+  "source_index_to_file": {
+    "1": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0012.jpg",
+    "2": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0013.jpg",
+    "3": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0014.jpg",
+    "4": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0015.jpg",
+    "5": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0016.jpg",
+    "6": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0017.jpg",
+    "7": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0018.jpg",
+    "8": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0019.jpg",
+    "9": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0020.jpg",
+    "10": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0021.jpg",
+    "11": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0022.jpg",
+    "12": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0023.jpg",
+    "13": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0024.jpg",
+    "14": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0025.jpg",
+    "15": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0026.jpg",
+    "16": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0027.jpg",
+    "17": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0028.jpg",
+    "18": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0029.jpg",
+    "19": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0032.jpg",
+    "20": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0033.jpg",
+    "21": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0040.jpg",
+    "22": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0041.jpg",
+    "23": "/Users/avneh/Downloads/101SIYI_IMG/IMG_0045.jpg"
+  },
+  "grid_shape": [
+    14,
+    11
+  ],
+  "analysis_shape": [
+    877,
+    678
+  ],
+  "analysis_pixel_transform": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "tile_analysis_pixels": 64,
+  "repaired_tiles": 0,
+  "method": "Validated map homographies + independent source-pair checks + local LK/NCC discrepancy tiles; one source per tile, intact-context color/detail matching and two-band smooth perimeter blending",
+  "absolute_accuracy_verified": false,
+  "unresolved_policy": "Weak fits, unsupported local changes and GPS-only offsets are reported without auto-patching"
+}

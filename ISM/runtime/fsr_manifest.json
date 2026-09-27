@@ -1,0 +1,3040 @@
+{
+  "upstream_revision": "c6efa6bf7f2027b3ec94f28578bb5965eabb9e55",
+  "algorithm": "AMD FidelityFX Frame Interpolation 1.1.3 (SDK 1.1.4)",
+  "translation": "Unmodified upstream GLSL -> SPIR-V -> MSL 4.0, FP32",
+  "passes": {
+    "compute_game_vector_field_inpainting_pyramid": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "cbInpaintingPyramid",
+          "kind": "buffer",
+          "index": 1
+        },
+        {
+          "name": "rw_counters",
+          "kind": "buffer",
+          "index": 2
+        },
+        {
+          "name": "r_game_motion_vector_field_x",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_game_motion_vector_field_y",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "rw_inpainting_pyramid0",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_inpainting_pyramid1",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_inpainting_pyramid2",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "rw_inpainting_pyramid3",
+          "kind": "texture",
+          "index": 5
+        },
+        {
+          "name": "rw_inpainting_pyramid4",
+          "kind": "texture",
+          "index": 6
+        },
+        {
+          "name": "rw_inpainting_pyramid5",
+          "kind": "texture",
+          "index": 7
+        },
+        {
+          "name": "rw_inpainting_pyramid6",
+          "kind": "texture",
+          "index": 8
+        },
+        {
+          "name": "rw_inpainting_pyramid7",
+          "kind": "texture",
+          "index": 9
+        },
+        {
+          "name": "rw_inpainting_pyramid8",
+          "kind": "texture",
+          "index": 10
+        },
+        {
+          "name": "rw_inpainting_pyramid9",
+          "kind": "texture",
+          "index": 11
+        },
+        {
+          "name": "rw_inpainting_pyramid10",
+          "kind": "texture",
+          "index": 12
+        },
+        {
+          "name": "rw_inpainting_pyramid11",
+          "kind": "texture",
+          "index": 13
+        }
+      ],
+      "threads": [
+        256,
+        1,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_game_vector_field_inpainting_pyramid_pass.glsl",
+      "metal_sha256": "dc7274856f5aa1ab76b04342d401c44759a67bd41b0a913bde51abf2e1251cb6",
+      "entrypoint": "ism_fsr_compute_game_vector_field_inpainting_pyramid",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              256,
+              1,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_302": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          },
+          "_311": {
+            "name": "cbInpaintingPyramid_t",
+            "members": [
+              {
+                "name": "mips",
+                "type": "uint",
+                "offset": 0
+              },
+              {
+                "name": "numWorkGroups",
+                "type": "uint",
+                "offset": 4
+              },
+              {
+                "name": "workGroupOffset",
+                "type": "uvec2",
+                "offset": 8
+              }
+            ]
+          },
+          "_351": {
+            "name": "FrameInterpolationRWCounters_t",
+            "members": [
+              {
+                "name": "data",
+                "type": "uint",
+                "array": [
+                  0
+                ],
+                "array_size_is_literal": [
+                  true
+                ],
+                "offset": 0,
+                "array_stride": 4
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_x",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_y",
+            "set": 0,
+            "binding": 1
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid0",
+            "set": 0,
+            "binding": 3,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid1",
+            "set": 0,
+            "binding": 4,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid2",
+            "set": 0,
+            "binding": 5,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid3",
+            "set": 0,
+            "binding": 6,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid4",
+            "set": 0,
+            "binding": 7,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid5",
+            "coherent": true,
+            "set": 0,
+            "binding": 8,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid6",
+            "set": 0,
+            "binding": 9,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid7",
+            "set": 0,
+            "binding": 10,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid8",
+            "set": 0,
+            "binding": 11,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid9",
+            "set": 0,
+            "binding": 12,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid10",
+            "set": 0,
+            "binding": 13,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid11",
+            "set": 0,
+            "binding": 14,
+            "format": "rgba16f"
+          }
+        ],
+        "ssbos": [
+          {
+            "type": "_351",
+            "name": "FrameInterpolationRWCounters_t",
+            "coherent": true,
+            "block_size": 0,
+            "set": 0,
+            "binding": 2
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_302",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 16
+          },
+          {
+            "type": "_311",
+            "name": "cbInpaintingPyramid_t",
+            "block_size": 16,
+            "set": 0,
+            "binding": 17
+          }
+        ]
+      }
+    },
+    "compute_inpainting_pyramid": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "cbInpaintingPyramid",
+          "kind": "buffer",
+          "index": 1
+        },
+        {
+          "name": "rw_counters",
+          "kind": "buffer",
+          "index": 2
+        },
+        {
+          "name": "r_output",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "rw_inpainting_pyramid0",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "rw_inpainting_pyramid1",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_inpainting_pyramid2",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_inpainting_pyramid3",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "rw_inpainting_pyramid4",
+          "kind": "texture",
+          "index": 5
+        },
+        {
+          "name": "rw_inpainting_pyramid5",
+          "kind": "texture",
+          "index": 6
+        },
+        {
+          "name": "rw_inpainting_pyramid6",
+          "kind": "texture",
+          "index": 7
+        },
+        {
+          "name": "rw_inpainting_pyramid7",
+          "kind": "texture",
+          "index": 8
+        },
+        {
+          "name": "rw_inpainting_pyramid8",
+          "kind": "texture",
+          "index": 9
+        },
+        {
+          "name": "rw_inpainting_pyramid9",
+          "kind": "texture",
+          "index": 10
+        },
+        {
+          "name": "rw_inpainting_pyramid10",
+          "kind": "texture",
+          "index": 11
+        },
+        {
+          "name": "rw_inpainting_pyramid11",
+          "kind": "texture",
+          "index": 12
+        }
+      ],
+      "threads": [
+        256,
+        1,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_compute_inpainting_pyramid_pass.glsl",
+      "metal_sha256": "77ef4c9dddd85ef4b41ceb2cf720737b26dd1c8e933d51777d99b4931d817759",
+      "entrypoint": "ism_fsr_compute_inpainting_pyramid",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              256,
+              1,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_298": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          },
+          "_317": {
+            "name": "cbInpaintingPyramid_t",
+            "members": [
+              {
+                "name": "mips",
+                "type": "uint",
+                "offset": 0
+              },
+              {
+                "name": "numWorkGroups",
+                "type": "uint",
+                "offset": 4
+              },
+              {
+                "name": "workGroupOffset",
+                "type": "uvec2",
+                "offset": 8
+              }
+            ]
+          },
+          "_344": {
+            "name": "FrameInterpolationRWCounters_t",
+            "members": [
+              {
+                "name": "data",
+                "type": "uint",
+                "array": [
+                  0
+                ],
+                "array_size_is_literal": [
+                  true
+                ],
+                "offset": 0,
+                "array_stride": 4
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_output",
+            "set": 0,
+            "binding": 0
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid0",
+            "set": 0,
+            "binding": 2,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid1",
+            "set": 0,
+            "binding": 3,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid2",
+            "set": 0,
+            "binding": 4,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid3",
+            "set": 0,
+            "binding": 5,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid4",
+            "set": 0,
+            "binding": 6,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid5",
+            "coherent": true,
+            "set": 0,
+            "binding": 7,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid6",
+            "set": 0,
+            "binding": 8,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid7",
+            "set": 0,
+            "binding": 9,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid8",
+            "set": 0,
+            "binding": 10,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid9",
+            "set": 0,
+            "binding": 11,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid10",
+            "set": 0,
+            "binding": 12,
+            "format": "rgba16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_inpainting_pyramid11",
+            "set": 0,
+            "binding": 13,
+            "format": "rgba16f"
+          }
+        ],
+        "ssbos": [
+          {
+            "type": "_344",
+            "name": "FrameInterpolationRWCounters_t",
+            "coherent": true,
+            "block_size": 0,
+            "set": 0,
+            "binding": 1
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_298",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 15
+          },
+          {
+            "type": "_317",
+            "name": "cbInpaintingPyramid_t",
+            "block_size": 16,
+            "set": 0,
+            "binding": 16
+          }
+        ]
+      }
+    },
+    "disocclusion_mask": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_dilated_depth",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_reconstructed_depth_previous_frame",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_reconstructed_depth_interpolated_frame",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "r_game_motion_vector_field_x",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "r_game_motion_vector_field_y",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "r_inpainting_pyramid",
+          "kind": "texture",
+          "index": 5
+        },
+        {
+          "name": "r_input_distortion_field",
+          "kind": "texture",
+          "index": 6
+        },
+        {
+          "name": "rw_disocclusion_mask",
+          "kind": "texture",
+          "index": 7
+        },
+        {
+          "name": "s_LinearClamp",
+          "kind": "sampler",
+          "index": 0
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_disocclusion_mask_pass.glsl",
+      "metal_sha256": "b3a146feaac08c04a6a8d87d039adc18f83256e735a981cd1a9488f88bd31a91",
+      "entrypoint": "ism_fsr_disocclusion_mask",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_196": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_dilated_depth",
+            "set": 0,
+            "binding": 3
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_reconstructed_depth_previous_frame",
+            "set": 0,
+            "binding": 2
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_reconstructed_depth_interpolated_frame",
+            "set": 0,
+            "binding": 4
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_x",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_y",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "texture2D",
+            "name": "r_inpainting_pyramid",
+            "set": 0,
+            "binding": 5
+          },
+          {
+            "type": "texture2D",
+            "name": "r_input_distortion_field",
+            "set": 0,
+            "binding": 6
+          }
+        ],
+        "separate_samplers": [
+          {
+            "type": "sampler",
+            "name": "s_LinearClamp",
+            "set": 0,
+            "binding": 1000
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_disocclusion_mask",
+            "set": 0,
+            "binding": 7,
+            "format": "rg8"
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_196",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 8
+          }
+        ]
+      }
+    },
+    "game_motion_vector_field": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_previous_interpolation_source",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_current_interpolation_source",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_dilated_motion_vectors",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "r_dilated_depth",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "r_input_distortion_field",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "rw_game_motion_vector_field_x",
+          "kind": "texture",
+          "index": 5
+        },
+        {
+          "name": "rw_game_motion_vector_field_y",
+          "kind": "texture",
+          "index": 6
+        },
+        {
+          "name": "s_LinearClamp",
+          "kind": "sampler",
+          "index": 0
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_game_motion_vector_field_pass.glsl",
+      "metal_sha256": "ae58569c7d603a8e6886961a0bd5f965cb83e391d5914126bd1e092b3697fa01",
+      "entrypoint": "ism_fsr_game_motion_vector_field",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_330": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_previous_interpolation_source",
+            "set": 0,
+            "binding": 2
+          },
+          {
+            "type": "texture2D",
+            "name": "r_current_interpolation_source",
+            "set": 0,
+            "binding": 3
+          },
+          {
+            "type": "texture2D",
+            "name": "r_dilated_motion_vectors",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "texture2D",
+            "name": "r_dilated_depth",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "texture2D",
+            "name": "r_input_distortion_field",
+            "set": 0,
+            "binding": 4
+          }
+        ],
+        "separate_samplers": [
+          {
+            "type": "sampler",
+            "name": "s_LinearClamp",
+            "set": 0,
+            "binding": 1000
+          }
+        ],
+        "images": [
+          {
+            "type": "uimage2D",
+            "name": "rw_game_motion_vector_field_x",
+            "set": 0,
+            "binding": 5,
+            "format": "r32ui"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_game_motion_vector_field_y",
+            "set": 0,
+            "binding": 6,
+            "format": "r32ui"
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_330",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 7
+          }
+        ]
+      }
+    },
+    "inpainting": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_current_interpolation_source",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_optical_flow_scd",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_inpainting_pyramid",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "r_present_backbuffer",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_output",
+          "kind": "texture",
+          "index": 4
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_inpainting_pass.glsl",
+      "metal_sha256": "936d7710dbf6a248c54fa2e56e0c23a954d0448988e4df4a13b02bd5513d09e8",
+      "entrypoint": "ism_fsr_inpainting",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_317": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_current_interpolation_source",
+            "set": 0,
+            "binding": 3
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_optical_flow_scd",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "texture2D",
+            "name": "r_inpainting_pyramid",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "texture2D",
+            "name": "r_present_backbuffer",
+            "set": 0,
+            "binding": 2
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_output",
+            "set": 0,
+            "binding": 7
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_317",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 8
+          }
+        ]
+      }
+    },
+    "optical_flow_vector_field": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_previous_interpolation_source",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_current_interpolation_source",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_optical_flow",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_optical_flow_motion_vector_field_x",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_optical_flow_motion_vector_field_y",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "s_LinearClamp",
+          "kind": "sampler",
+          "index": 0
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_optical_flow_vector_field_pass.glsl",
+      "metal_sha256": "f641e389c27df4361b172dc7c949cd184474aaa2e8237f80957dd577b155e1c6",
+      "entrypoint": "ism_fsr_optical_flow_vector_field",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_312": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_previous_interpolation_source",
+            "set": 0,
+            "binding": 3
+          },
+          {
+            "type": "texture2D",
+            "name": "r_current_interpolation_source",
+            "set": 0,
+            "binding": 4
+          },
+          {
+            "type": "itexture2D",
+            "name": "r_optical_flow",
+            "set": 0,
+            "binding": 0
+          }
+        ],
+        "separate_samplers": [
+          {
+            "type": "sampler",
+            "name": "s_LinearClamp",
+            "set": 0,
+            "binding": 1000
+          }
+        ],
+        "images": [
+          {
+            "type": "uimage2D",
+            "name": "rw_optical_flow_motion_vector_field_x",
+            "set": 0,
+            "binding": 6,
+            "format": "r32ui"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_optical_flow_motion_vector_field_y",
+            "set": 0,
+            "binding": 7,
+            "format": "r32ui"
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_312",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 8
+          }
+        ]
+      }
+    },
+    "interpolation": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_counters",
+          "kind": "buffer",
+          "index": 1
+        },
+        {
+          "name": "r_previous_interpolation_source",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_current_interpolation_source",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_disocclusion_mask",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "r_game_motion_vector_field_x",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "r_game_motion_vector_field_y",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "r_optical_flow_motion_vector_field_x",
+          "kind": "texture",
+          "index": 5
+        },
+        {
+          "name": "r_optical_flow_motion_vector_field_y",
+          "kind": "texture",
+          "index": 6
+        },
+        {
+          "name": "r_inpainting_pyramid",
+          "kind": "texture",
+          "index": 7
+        },
+        {
+          "name": "rw_output",
+          "kind": "texture",
+          "index": 8
+        },
+        {
+          "name": "s_LinearClamp",
+          "kind": "sampler",
+          "index": 0
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_pass.glsl",
+      "metal_sha256": "1b07a668ffbb774471501c6bc6b060eb87fdb4b55dbd0ad77e3af12af309dccd",
+      "entrypoint": "ism_fsr_interpolation",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_404": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          },
+          "_548": {
+            "name": "FrameInterpolationCounters_t",
+            "members": [
+              {
+                "name": "data",
+                "type": "uint",
+                "array": [
+                  0
+                ],
+                "array_size_is_literal": [
+                  true
+                ],
+                "offset": 0,
+                "array_stride": 4
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_previous_interpolation_source",
+            "set": 0,
+            "binding": 4
+          },
+          {
+            "type": "texture2D",
+            "name": "r_current_interpolation_source",
+            "set": 0,
+            "binding": 5
+          },
+          {
+            "type": "texture2D",
+            "name": "r_disocclusion_mask",
+            "set": 0,
+            "binding": 6
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_x",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_game_motion_vector_field_y",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_optical_flow_motion_vector_field_x",
+            "set": 0,
+            "binding": 2
+          },
+          {
+            "type": "utexture2D",
+            "name": "r_optical_flow_motion_vector_field_y",
+            "set": 0,
+            "binding": 3
+          },
+          {
+            "type": "texture2D",
+            "name": "r_inpainting_pyramid",
+            "set": 0,
+            "binding": 7
+          }
+        ],
+        "separate_samplers": [
+          {
+            "type": "sampler",
+            "name": "s_LinearClamp",
+            "set": 0,
+            "binding": 1000
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_output",
+            "set": 0,
+            "binding": 9
+          }
+        ],
+        "ssbos": [
+          {
+            "type": "_548",
+            "name": "FrameInterpolationCounters_t",
+            "readonly": true,
+            "block_size": 0,
+            "set": 0,
+            "binding": 8
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_404",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 10
+          }
+        ]
+      }
+    },
+    "reconstruct_and_dilate": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_input_depth",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_input_motion_vectors",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "rw_dilated_motion_vectors",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_dilated_depth",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_reconstructed_depth_previous_frame",
+          "kind": "texture",
+          "index": 4
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_and_dilate_pass.glsl",
+      "metal_sha256": "5b19490fceeba504f92cf6b921d767fb275e0ce588f97476e9c303584abdea4f",
+      "entrypoint": "ism_fsr_reconstruct_and_dilate",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_101": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_input_depth",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "texture2D",
+            "name": "r_input_motion_vectors",
+            "set": 0,
+            "binding": 0
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_dilated_motion_vectors",
+            "set": 0,
+            "binding": 3,
+            "format": "rg16f"
+          },
+          {
+            "type": "image2D",
+            "name": "rw_dilated_depth",
+            "set": 0,
+            "binding": 4,
+            "format": "r32f"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_reconstructed_depth_previous_frame",
+            "set": 0,
+            "binding": 2,
+            "format": "r32ui"
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_101",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 5
+          }
+        ]
+      }
+    },
+    "reconstruct_previous_depth": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "r_dilated_motion_vectors",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "r_dilated_depth",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "r_input_distortion_field",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_reconstructed_depth_interpolated_frame",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "s_LinearClamp",
+          "kind": "sampler",
+          "index": 0
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_reconstruct_previous_depth_pass.glsl",
+      "metal_sha256": "53b047b65ed8721c05ec57cb5e341cdfea956c5044dfb63b3b139086c5dfe6b7",
+      "entrypoint": "ism_fsr_reconstruct_previous_depth",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_79": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "texture2D",
+            "name": "r_dilated_motion_vectors",
+            "set": 0,
+            "binding": 0
+          },
+          {
+            "type": "texture2D",
+            "name": "r_dilated_depth",
+            "set": 0,
+            "binding": 1
+          },
+          {
+            "type": "texture2D",
+            "name": "r_input_distortion_field",
+            "set": 0,
+            "binding": 3
+          }
+        ],
+        "separate_samplers": [
+          {
+            "type": "sampler",
+            "name": "s_LinearClamp",
+            "set": 0,
+            "binding": 1000
+          }
+        ],
+        "images": [
+          {
+            "type": "uimage2D",
+            "name": "rw_reconstructed_depth_interpolated_frame",
+            "set": 0,
+            "binding": 4,
+            "format": "r32ui"
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_79",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 5
+          }
+        ]
+      }
+    },
+    "setup": {
+      "bindings": [
+        {
+          "name": "cbFI",
+          "kind": "buffer",
+          "index": 0
+        },
+        {
+          "name": "rw_counters",
+          "kind": "buffer",
+          "index": 1
+        },
+        {
+          "name": "r_optical_flow_scd",
+          "kind": "texture",
+          "index": 0
+        },
+        {
+          "name": "rw_disocclusion_mask",
+          "kind": "texture",
+          "index": 1
+        },
+        {
+          "name": "rw_game_motion_vector_field_x",
+          "kind": "texture",
+          "index": 2
+        },
+        {
+          "name": "rw_game_motion_vector_field_y",
+          "kind": "texture",
+          "index": 3
+        },
+        {
+          "name": "rw_optical_flow_motion_vector_field_x",
+          "kind": "texture",
+          "index": 4
+        },
+        {
+          "name": "rw_optical_flow_motion_vector_field_y",
+          "kind": "texture",
+          "index": 5
+        }
+      ],
+      "threads": [
+        8,
+        8,
+        1
+      ],
+      "source": "third_party/fidelityfx_sdk/sdk/src/backends/vk/shaders/frameinterpolation/ffx_frameinterpolation_setup_pass.glsl",
+      "metal_sha256": "18b577b9ec5b4d56ba5e8706b9aceafe720b818fdb689a341384990e871c30ed",
+      "entrypoint": "ism_fsr_setup",
+      "reflection": {
+        "entryPoints": [
+          {
+            "name": "main",
+            "mode": "comp",
+            "workgroup_size": [
+              8,
+              8,
+              1
+            ],
+            "workgroup_size_is_spec_constant_id": [
+              false,
+              false,
+              false
+            ]
+          }
+        ],
+        "types": {
+          "_58": {
+            "name": "cbFI_t",
+            "members": [
+              {
+                "name": "renderSize",
+                "type": "ivec2",
+                "offset": 0
+              },
+              {
+                "name": "displaySize",
+                "type": "ivec2",
+                "offset": 8
+              },
+              {
+                "name": "displaySizeRcp",
+                "type": "vec2",
+                "offset": 16
+              },
+              {
+                "name": "cameraNear",
+                "type": "float",
+                "offset": 24
+              },
+              {
+                "name": "cameraFar",
+                "type": "float",
+                "offset": 28
+              },
+              {
+                "name": "upscalerTargetSize",
+                "type": "ivec2",
+                "offset": 32
+              },
+              {
+                "name": "Mode",
+                "type": "int",
+                "offset": 40
+              },
+              {
+                "name": "reset",
+                "type": "int",
+                "offset": 44
+              },
+              {
+                "name": "fDeviceToViewDepth",
+                "type": "vec4",
+                "offset": 48
+              },
+              {
+                "name": "deltaTime",
+                "type": "float",
+                "offset": 64
+              },
+              {
+                "name": "HUDLessAttachedFactor",
+                "type": "int",
+                "offset": 68
+              },
+              {
+                "name": "distortionFieldSize",
+                "type": "ivec2",
+                "offset": 72
+              },
+              {
+                "name": "opticalFlowScale",
+                "type": "vec2",
+                "offset": 80
+              },
+              {
+                "name": "opticalFlowBlockSize",
+                "type": "int",
+                "offset": 88
+              },
+              {
+                "name": "dispatchFlags",
+                "type": "uint",
+                "offset": 92
+              },
+              {
+                "name": "maxRenderSize",
+                "type": "ivec2",
+                "offset": 96
+              },
+              {
+                "name": "opticalFlowHalfResMode",
+                "type": "int",
+                "offset": 104
+              },
+              {
+                "name": "NumInstances",
+                "type": "int",
+                "offset": 108
+              },
+              {
+                "name": "interpolationRectBase",
+                "type": "ivec2",
+                "offset": 112
+              },
+              {
+                "name": "interpolationRectSize",
+                "type": "ivec2",
+                "offset": 120
+              },
+              {
+                "name": "debugBarColor",
+                "type": "vec3",
+                "offset": 128
+              },
+              {
+                "name": "backBufferTransferFunction",
+                "type": "uint",
+                "offset": 140
+              },
+              {
+                "name": "minMaxLuminance",
+                "type": "vec2",
+                "offset": 144
+              },
+              {
+                "name": "fTanHalfFOV",
+                "type": "float",
+                "offset": 152
+              },
+              {
+                "name": "_pad1",
+                "type": "int",
+                "offset": 156
+              },
+              {
+                "name": "fJitter",
+                "type": "vec2",
+                "offset": 160
+              },
+              {
+                "name": "fMotionVectorScale",
+                "type": "vec2",
+                "offset": 168
+              }
+            ]
+          },
+          "_117": {
+            "name": "FrameInterpolationRWCounters_t",
+            "members": [
+              {
+                "name": "data",
+                "type": "uint",
+                "array": [
+                  0
+                ],
+                "array_size_is_literal": [
+                  true
+                ],
+                "offset": 0,
+                "array_stride": 4
+              }
+            ]
+          }
+        },
+        "separate_images": [
+          {
+            "type": "utexture2D",
+            "name": "r_optical_flow_scd",
+            "set": 0,
+            "binding": 0
+          }
+        ],
+        "images": [
+          {
+            "type": "image2D",
+            "name": "rw_disocclusion_mask",
+            "set": 0,
+            "binding": 5,
+            "format": "rg8"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_game_motion_vector_field_x",
+            "set": 0,
+            "binding": 1,
+            "format": "r32ui"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_game_motion_vector_field_y",
+            "set": 0,
+            "binding": 2,
+            "format": "r32ui"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_optical_flow_motion_vector_field_x",
+            "set": 0,
+            "binding": 3,
+            "format": "r32ui"
+          },
+          {
+            "type": "uimage2D",
+            "name": "rw_optical_flow_motion_vector_field_y",
+            "set": 0,
+            "binding": 4,
+            "format": "r32ui"
+          }
+        ],
+        "ssbos": [
+          {
+            "type": "_117",
+            "name": "FrameInterpolationRWCounters_t",
+            "coherent": true,
+            "block_size": 0,
+            "set": 0,
+            "binding": 6
+          }
+        ],
+        "ubos": [
+          {
+            "type": "_58",
+            "name": "cbFI_t",
+            "block_size": 176,
+            "set": 0,
+            "binding": 7
+          }
+        ]
+      }
+    }
+  }
+}

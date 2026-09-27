@@ -1,0 +1,227 @@
+{
+  "field36": {
+    "source": "/Users/avneh/Code/ADM/MapRepair/web_runs_mac/1fd73f4c9ef249df996bfb484bb4ef8e/input/odm_orthophoto_fsr2x.tif",
+    "dimensions": [
+      1838,
+      1114
+    ],
+    "adaptive_finish_seconds": 0.2544027090043528,
+    "alpha_exact": true,
+    "source_extreme_channel_fraction": 0.0001538813267208329,
+    "finished_extreme_channel_fraction": 0.0008114884658094535,
+    "analysis": {
+      "version": 1,
+      "offline": true,
+      "luminance_percentiles": [
+        0.28362351655960083,
+        0.3708905190229416,
+        0.5033443570137024,
+        0.6346306204795837,
+        0.7421806925535199
+      ],
+      "noise_sigma_codes": 2.1164192212745547,
+      "neutral_reference_pixels": 72039,
+      "white_balance_rgb_gain": [
+        1.005692720413208,
+        0.9990763664245605,
+        0.9925464391708374
+      ],
+      "exposure_stops": -0.031178851001383543,
+      "contrast_strength": 0.12100249420106417,
+      "saturation_gain": 1.055,
+      "geometry": "unchanged",
+      "synthetic_detail": false,
+      "alpha_preserved": true,
+      "operations": [
+        "scene-adaptive tone",
+        "neutral-only white balance",
+        "noise-gated multiscale luminance detail",
+        "local extrema halo protection",
+        "restrained cinematic color",
+        "luminance-preserving gamut compression"
+      ]
+    },
+    "lighting": {
+      "backend": "Project-10/OpenRT C++ Scene, BSP, diffuse shader, sun and sky ray tracing",
+      "geometry": "flat map plane",
+      "samples": 16,
+      "bounces": 0,
+      "field_shape": [
+        78,
+        128
+      ],
+      "irradiance_min": 0.7710535526275635,
+      "irradiance_max": 1.1898164749145508,
+      "strength": 0.35,
+      "sun_elevation_deg": 15,
+      "sun_azimuth_deg": 255.0,
+      "flat_plane_preserves_pixels": false,
+      "provided_scene_geometry": false,
+      "mean_irradiance_rgb": [
+        1.1891892023790531,
+        0.9668523669302559,
+        0.7711622714220235
+      ],
+      "highlight_protection": true,
+      "note": "Artistic warm sun/cool sky on a flat plane; existing shadows retained, no inferred tree/building shadows. The 5 pm name is a look, not a calculated sun position.",
+      "upstream": "https://github.com/Project-10/OpenRT",
+      "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+      "source_sha256": "c7e98f1619ee5997ef1b0fba57b88cf081b733811512968ae9f4b268085af222",
+      "sky_samples": 16,
+      "normalization": "Unoccluded ground plane under neutral sun/sky",
+      "lighting_preset": "golden_hour_5pm",
+      "field_channels": "linear RGB",
+      "lighting": "Direct diffuse sun plus sampled sky occlusion; no inferred scene geometry"
+    }
+  },
+  "google306": {
+    "source": "/Users/avneh/Code/ADM/output/killerofmaps/metal_optimized_128mb/map_neutral.png",
+    "dimensions": [
+      6500,
+      4394
+    ],
+    "adaptive_finish_seconds": 2.5078691660019103,
+    "alpha_exact": true,
+    "source_extreme_channel_fraction": 0.006482002958684534,
+    "finished_extreme_channel_fraction": 0.010362662193463976,
+    "analysis": {
+      "version": 1,
+      "offline": true,
+      "luminance_percentiles": [
+        0.10814745724201202,
+        0.3520442306995392,
+        0.532589852809906,
+        0.7990517616271973,
+        0.9092092388868326
+      ],
+      "noise_sigma_codes": 0.5,
+      "neutral_reference_pixels": 95096,
+      "white_balance_rgb_gain": [
+        0.994592010974884,
+        0.9996151924133301,
+        1.0202257633209229
+      ],
+      "exposure_stops": -0.05073385935217652,
+      "contrast_strength": 0.07,
+      "saturation_gain": 1.0435686294436455,
+      "geometry": "unchanged",
+      "synthetic_detail": false,
+      "alpha_preserved": true,
+      "operations": [
+        "scene-adaptive tone",
+        "neutral-only white balance",
+        "noise-gated multiscale luminance detail",
+        "local extrema halo protection",
+        "restrained cinematic color",
+        "luminance-preserving gamut compression"
+      ]
+    },
+    "lighting": {
+      "backend": "Project-10/OpenRT C++ Scene, BSP, diffuse shader, sun and sky ray tracing",
+      "geometry": "flat map plane",
+      "samples": 16,
+      "bounces": 0,
+      "field_shape": [
+        87,
+        128
+      ],
+      "irradiance_min": 0.7710517644882202,
+      "irradiance_max": 1.189826488494873,
+      "strength": 0.35,
+      "sun_elevation_deg": 15,
+      "sun_azimuth_deg": 255.0,
+      "flat_plane_preserves_pixels": false,
+      "provided_scene_geometry": false,
+      "mean_irradiance_rgb": [
+        1.1891890540504935,
+        0.9668522804397447,
+        0.7711622456366989
+      ],
+      "highlight_protection": true,
+      "note": "Artistic warm sun/cool sky on a flat plane; existing shadows retained, no inferred tree/building shadows. The 5 pm name is a look, not a calculated sun position.",
+      "upstream": "https://github.com/Project-10/OpenRT",
+      "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+      "source_sha256": "c7e98f1619ee5997ef1b0fba57b88cf081b733811512968ae9f4b268085af222",
+      "sky_samples": 16,
+      "normalization": "Unoccluded ground plane under neutral sun/sky",
+      "lighting_preset": "golden_hour_5pm",
+      "field_channels": "linear RGB",
+      "lighting": "Direct diffuse sun plus sampled sky occlusion; no inferred scene geometry"
+    }
+  },
+  "field94": {
+    "source": "/Users/avneh/Code/ADM/output/maprepair94_blended_jpeg/01_repaired.png",
+    "dimensions": [
+      6500,
+      5978
+    ],
+    "adaptive_finish_seconds": 1.9874412089993712,
+    "alpha_exact": true,
+    "source_extreme_channel_fraction": 0.0024238901074782313,
+    "finished_extreme_channel_fraction": 0.004581840990368845,
+    "analysis": {
+      "version": 1,
+      "offline": true,
+      "luminance_percentiles": [
+        0.2208360880613327,
+        0.32563215494155884,
+        0.4411121606826782,
+        0.5690129399299622,
+        0.7016033798456202
+      ],
+      "noise_sigma_codes": 0.6877817970234901,
+      "neutral_reference_pixels": 4389,
+      "white_balance_rgb_gain": [
+        1.0212810039520264,
+        0.994405210018158,
+        0.994405210018158
+      ],
+      "exposure_stops": 0.014517198633293989,
+      "contrast_strength": 0.1171157239377497,
+      "saturation_gain": 1.0468039151728152,
+      "geometry": "unchanged",
+      "synthetic_detail": false,
+      "alpha_preserved": true,
+      "operations": [
+        "scene-adaptive tone",
+        "neutral-only white balance",
+        "noise-gated multiscale luminance detail",
+        "local extrema halo protection",
+        "restrained cinematic color",
+        "luminance-preserving gamut compression"
+      ]
+    },
+    "lighting": {
+      "backend": "Project-10/OpenRT C++ Scene, BSP, diffuse shader, sun and sky ray tracing",
+      "geometry": "flat map plane",
+      "samples": 16,
+      "bounces": 0,
+      "field_shape": [
+        118,
+        128
+      ],
+      "irradiance_min": 0.7710456848144531,
+      "irradiance_max": 1.1898621320724487,
+      "strength": 0.35,
+      "sun_elevation_deg": 15,
+      "sun_azimuth_deg": 255.0,
+      "flat_plane_preserves_pixels": false,
+      "provided_scene_geometry": false,
+      "mean_irradiance_rgb": [
+        1.1891890409544617,
+        0.9668522724226686,
+        0.7711622438440888
+      ],
+      "highlight_protection": true,
+      "note": "Artistic warm sun/cool sky on a flat plane; existing shadows retained, no inferred tree/building shadows. The 5 pm name is a look, not a calculated sun position.",
+      "upstream": "https://github.com/Project-10/OpenRT",
+      "commit": "ef6205f8ca51fd123da4a2f0b7b7a6ad27809b80",
+      "source_sha256": "c7e98f1619ee5997ef1b0fba57b88cf081b733811512968ae9f4b268085af222",
+      "sky_samples": 16,
+      "normalization": "Unoccluded ground plane under neutral sun/sky",
+      "lighting_preset": "golden_hour_5pm",
+      "field_channels": "linear RGB",
+      "lighting": "Direct diffuse sun plus sampled sky occlusion; no inferred scene geometry"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "width": 1754,
+  "height": 1356,
+  "pixel_center_to_input": [
+    [
+      0.5,
+      0,
+      -0.25
+    ],
+    [
+      0,
+      0.5,
+      -0.25
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "input_map": "/Users/avneh/Downloads/odm.png",
+  "georeferenced": false,
+  "resolution_note": "2x spatial reconstruction; no new measured ground detail",
+  "input_raster": {
+    "reader": "OpenCV",
+    "width": 877,
+    "height": 678,
+    "alpha": "input alpha or fully opaque"
+  },
+  "crop_input_bounds_xyxy": [
+    0,
+    0,
+    877,
+    678
+  ],
+  "alpha_policy": "Exact original mask, nearest-neighbor 2x; composited onto JPEG background",
+  "jpeg_background_rgb": [
+    255,
+    255,
+    255
+  ],
+  "alpha_sidecar": "final_2x_alpha.tif"
+}

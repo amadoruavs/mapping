@@ -1,0 +1,38 @@
+Sharpened saved neutral map 0.17344383299496258
+Full-map CPU/Metal parity {'mean_rgb_code_error': 4.821096155990769e-06, 'max_rgb_code_error': 5, 'fraction_rgb_channels_identical': 0.9999971776857023, 'p999_rgb_code_error': 0}
+{
+  "kind": "Presentation only on saved 94-photo neutral map; not a raw-photo E2E run",
+  "source": "/Users/avneh/Code/ADM/final_test/map_neutral.png",
+  "runtime": "/Users/avneh/Code/ADM/ISM/runtime/adm/__init__.py",
+  "source_sha256": "b55ff5f3c094e23981d7f172bc43f49a3895a6094636dffdeffd9ab980cf8d9a",
+  "shader_sha256": "7f4ed7b3d2ab40cecb880c30d239c9c2cc0712e66737c7c24c34531b532937ff",
+  "size": [
+    6500,
+    5978
+  ],
+  "sharpen_seconds": 0.17344383299496258,
+  "grade_seconds": 0.2387345839961199,
+  "warm_grade_seconds": 0.3882042920013191,
+  "unbatched_grade_seconds": 0.2515761660033604,
+  "cpu_grade_seconds": 3.6506230419981875,
+  "grade_command_submissions": 1,
+  "grade_metal_dispatches": 16,
+  "batching_bit_exact": true,
+  "repeat_bit_exact": true,
+  "cpu_metal_error": {
+    "mean_rgb_code_error": 4.821096155990769e-06,
+    "max_rgb_code_error": 5,
+    "fraction_rgb_channels_identical": 0.9999971776857023,
+    "p999_rgb_code_error": 0
+  },
+  "tone_before_unsharp_error": {
+    "mean_rgb_code_error": 1.2524555850082783e-06,
+    "max_rgb_code_error": 1,
+    "fraction_rgb_channels_identical": 0.999998747544415,
+    "p999_rgb_code_error": 0
+  },
+  "cropped_pixels_exact": true,
+  "png_and_preview_export_seconds": 1.2447271249984624,
+  "timing_scope": "Excludes input decode and GPU initialization; single-machine samples, not E2E speed claims"
+}
+Retained coverage: 0.7744854960541914 -> 0.8589435621292527

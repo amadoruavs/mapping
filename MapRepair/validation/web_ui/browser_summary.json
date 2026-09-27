@@ -1,0 +1,26 @@
+{
+  "browser": "Installed Chrome, headless Playwright",
+  "source": "/Users/avneh/Downloads/South-1st-Place-9-15-2026-orthophoto (1).tif",
+  "photos": 94,
+  "actual_file_drop": true,
+  "actual_folder_drop": true,
+  "uploaded_photos": 94,
+  "invalid_folder_recovery": true,
+  "stop_and_retry": true,
+  "refresh_during_run": true,
+  "refresh_after_completion": true,
+  "downloaded_exact_full_jpeg": true,
+  "jpeg_dimensions": [
+    9358,
+    7882
+  ],
+  "original_alpha_and_bounds_exact": true,
+  "narrow_layout_no_overflow": true,
+  "javascript_errors": [],
+  "pipeline_seconds": 31.81331858300109,
+  "web_job_seconds": 32.10335111618042,
+  "job_id": "1880b8869a134360b8f0c0975f5c7a74",
+  "output_folder": "/Users/avneh/Code/ADM/MapRepair/validation/web_ui/runs/1880b8869a134360b8f0c0975f5c7a74/output",
+  "downloaded_filename": "South-1st-Place-9-15-2026-orthophoto__1__full_2x.jpg",
+  "browser_validation_seconds": 34.23356129199965
+}

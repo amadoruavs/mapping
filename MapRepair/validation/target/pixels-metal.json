@@ -1,0 +1,15 @@
+{
+  "requested_backend": "metal",
+  "passed": true,
+  "torch_version": "2.14.0",
+  "hip_version": null,
+  "device": "mps",
+  "iterations": 100,
+  "source_pixels": 25048960,
+  "max_pixel_error": 0,
+  "device_live_bytes_before": 0,
+  "device_live_bytes_after": 0,
+  "device_reserved_bytes_before": 8880128,
+  "device_reserved_peak_bytes": 75988992,
+  "seconds": 3.139282000003732
+}

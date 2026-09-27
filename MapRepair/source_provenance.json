@@ -1,0 +1,6 @@
+{
+  "adm/cinematic_grade.py": "b4af88cec40e39f093142d99170abce99026ecc71517862064dd5104200e1cca",
+  "adm/presentation.py": "0646d8673be9e54084dd218b34f6b9f7e226ec9c2305467076ad2f21315d493f",
+  "shaders/fsr.metal": "ed77f17d36ae20c157bf6497f9d58d1a5bc6505b1d6a10ed7d61365146659779",
+  "shaders/raytracing.metal": "271a31674c9d1230157ee8ef26ac4e7d35ae06554b3f5e140bd7ccc848a32435"
+}
